@@ -39,11 +39,13 @@ SCR_FactionManager FactionManager_Editor : "{4A188E44289B9A50}Prefabs/MP/Manager
    m_aPredefinedGroups {
     SCR_GroupPreset "{6298506B7F3CA729}" {
      m_sGroupName "Nova"
+     m_eGroupRole ASSAULT
      m_iGroupSize 5
      m_iRadioFrequency 38000
     }
     SCR_GroupPreset "{6298506B1B61CF5C}" {
      m_sGroupName "Nova-1"
+     m_eGroupRole ASSAULT
      m_iGroupSize 9
      m_iRadioFrequency 38500
     }
@@ -64,7 +66,7 @@ SCR_FactionManager FactionManager_Editor : "{4A188E44289B9A50}Prefabs/MP/Manager
     }
    }
    m_aEntityCatalogs {
-    SCR_EntityCatalogMultiList "{5C68A0EEB3F124F9}" : "{14BAA5AB3A18570D}Configs/EntityCatalog/US/InventoryStuff_EntityCatalog_US.conf" {
+    SCR_EntityCatalogMultiList "{5C68A0EEB3F124F9}" : "{5F7EC52FC40A03E2}Configs/EntityCatalog/US/InventoryItems_EntityCatalog_US.conf" {
     }
    }
   }
@@ -91,10 +93,10 @@ SCR_FactionManager FactionManager_Editor : "{4A188E44289B9A50}Prefabs/MP/Manager
   }
  }
 }
-RadioManagerEntity RadioManager : "{B8E09FAB91C4ECCD}Prefabs/Radio/RadioManager.et" {
+RadioManagerEntity RadioManager : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
  coords 2033.122 33.063 2022.837
 }
-SCR_BaseGameMode GameModeSF : "{ECEEDB2D3737204B}Prefabs/ScenarioFramework/GameModeSF.et" {
+SCR_BaseGameMode GameModeSF : "{ECEEDB2D3737204B}Prefabs/Systems/ScenarioFramework/GameModeSF.et" {
  components {
   SCR_GameModeHealthSettings "{5A22E11F9ACBB1DF}" {
    m_fDOTScale 0.02
@@ -133,9 +135,6 @@ SCR_BaseGameMode GameModeSF : "{ECEEDB2D3737204B}Prefabs/ScenarioFramework/GameM
 }
 ScriptedChatEntity ScriptedChatEntity : "{F69BC912AC8236F9}Prefabs/MP/ScriptedChatEntity.et" {
  coords 2033.122 33.482 2024.837
-}
-SCR_BaseTaskManager TaskManager : "{1AC69CD7907FB4F8}Prefabs/ScenarioFramework/Tasks/TaskManager.et" {
- coords 2033.122 32.501 2019.837
 }
 SCR_LoadoutManager LoadoutManager_Base : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutManager_Base.et" {
  coords 2032.006 32.213 2018.301

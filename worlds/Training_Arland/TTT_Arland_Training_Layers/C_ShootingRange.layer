@@ -1,22 +1,16 @@
 SCR_DoorOpenerEntity {
  coords 1583.648 8.687 1999.337
- angleX 2.684
- angleY 0.014
- angleZ 0.001
+ angles 2.684 0.014 0.001
  m_fRadius 5
 }
 $grp GameEntity : "{0E94F28FD722B1D8}Prefabs/Props/Military/Generators/GeneratorFloodlight_US_01.et" {
  {
   coords 1559.151 37.725 2621.209
-  angleX 4.498
-  angleY -24.669
-  angleZ -3.043
+  angles 4.498 -24.669 -3.043
  }
  {
   coords 1548.16 37.507 2625.977
-  angleX 3.209
-  angleY 61.878
-  angleZ 0.313
+  angles 3.209 61.878 0.313
  }
 }
 GenericEntity : "{0FC1D6E9B592F75D}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Equipment_US.et" {
@@ -34,13 +28,11 @@ GenericEntity : "{0FC1D6E9B592F75D}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/A
   }
  }
  coords 1291.135 11.276 1867.66
- angleX -0.555
- angleY 18.045
- angleZ 1.702
+ angles -0.555 18.045 1.702
 }
 GenericEntity : "{176FDCEC3698D11E}Prefabs/Structures/BuildingParts/Doors/DoorSet_Lighthouse_main_01_RIGHT_INT_M1_grey.et" {
  coords 1344.418 8.504 1856.23
- angleY 15.797
+ angles 0 15.797 0
  {
   GenericEntity {
    ID "568AF714C5A34E88"
@@ -72,9 +64,7 @@ $grp GenericEntity : "{1A942A9E6D0CD0F2}Prefabs/Props/Military/Arsenal/AmmoBoxes
    }
   }
   coords 1037.862 13.105 1944.85
-  angleX -1.774
-  angleY 147.252
-  angleZ 2.203
+  angles -1.774 147.252 2.203
  }
  {
   components {
@@ -99,9 +89,7 @@ $grp GenericEntity : "{1A942A9E6D0CD0F2}Prefabs/Props/Military/Arsenal/AmmoBoxes
    }
   }
   coords 1039.493 13.183 1945.998
-  angleX -1.703
-  angleY 145.439
-  angleZ 2.258
+  angles -1.703 145.439 2.258
  }
  {
   components {
@@ -125,9 +113,7 @@ $grp GenericEntity : "{1A942A9E6D0CD0F2}Prefabs/Props/Military/Arsenal/AmmoBoxes
    }
   }
   coords 1049.03 13.706 1950.457
-  angleX -3.271
-  angleY 166.562
-  angleZ 1.699
+  angles -3.271 166.562 1.699
  }
  {
   components {
@@ -154,14 +140,12 @@ $grp GenericEntity : "{1A942A9E6D0CD0F2}Prefabs/Props/Military/Arsenal/AmmoBoxes
    }
   }
   coords 1347.564 10.799 1883.831
-  angleY -165.594
+  angles 0 -165.594 0
  }
 }
 GenericEntity : "{1BE3AC5A76F84398}Prefabs/Items/Equipment/Detonators/BlastingMachine_M34/DeployableDetonatorReplacementUS.et" {
  coords 1038.353 12.229 1945.239
- angleX -1.745
- angleY 146.497
- angleZ 2.227
+ angles -1.745 146.497 2.227
 }
 $grp GenericEntity : "{21D83950DF36F250}Prefabs/Props/Military/Sandbags/Sandbag_01_long_burlap.et" {
  {
@@ -171,8 +155,7 @@ $grp GenericEntity : "{21D83950DF36F250}Prefabs/Props/Military/Sandbags/Sandbag_
    }
   }
   coords 1356.418 9.946 1877.578
-  angleX -0.001
-  angleY 13.922
+  angles -0.001 13.922 0
  }
  {
   components {
@@ -181,678 +164,485 @@ $grp GenericEntity : "{21D83950DF36F250}Prefabs/Props/Military/Sandbags/Sandbag_
    }
   }
   coords 1359.559 10.003 1876.804
-  angleX -0.001
-  angleY 13.922
+  angles -0.001 13.922 0
  }
 }
-GenericEntity : "{25B265F3E7CBDFC8}Prefabs/Props/Wrecks/BMP1_wreck.et" {
+GenericEntity : "{25B265F3E7CBDFC8}Prefabs/Props/Wrecks/BMP1_wreck/BMP1_wreck.et" {
  coords 1315.976 12.89 1821.217
- angleX -0.01
- angleY -38.676
- angleZ -1.394
+ angles -0.01 -38.676 -1.394
 }
 $grp SCR_DestructibleEntity : "{2FBF5DEDFA25D947}Prefabs/Structures/Walls/Concrete/ConcreteWall_01/ConcreteWall_01_6m_A.et" {
  {
   coords 1038.4 0.103 1946
-  angleX 0.139
-  angleY -35.477
-  angleZ -2.286
+  angles 0.139 -35.477 -2.286
  }
  {
   coords 1052.666 0 1952.18
-  angleX -3.213
-  angleY 164.649
-  angleZ 1.808
+  angles -3.213 164.649 1.808
  }
  {
   coords 1058.527 0.267 1953.584
-  angleX -3.901
-  angleY 167.119
-  angleZ 3.302
+  angles -3.901 167.119 3.302
  }
  {
   coords 1033.651 -0.001 1942.693
-  angleX 1.768
-  angleY -35.667
-  angleZ -6.321
+  angles 1.768 -35.667 -6.321
  }
  {
   coords 988.858 -0.08 1965.231
-  angleX -0.554
-  angleY -52.959
-  angleZ -2.222
+  angles -0.554 -52.959 -2.222
  }
  {
   coords 992.453 -0.086 1970.016
-  angleX -0.462
-  angleY -50.576
-  angleZ -2.243
+  angles -0.462 -50.576 -2.243
  }
  {
   coords 985.26 0.091 1960.469
-  angleX -0.554
-  angleY -52.959
-  angleZ -2.222
+  angles -0.554 -52.959 -2.222
  }
 }
 GenericEntity : "{361EEFE7B91BF9E8}Prefabs/Compositions/Misc/SubCompositions/BarrelMetalGroup_01.et" {
  coords 1341.875 8.406 1833.071
- angleY 70.108
+ angles 0 70.108 0
  {
   GenericEntity {
    ID "552CE6992B779765"
    coords 0.958 0.001 0.076
-   angleY -83.327
+   angles 0 -83.327 0
   }
   GenericEntity {
    ID "552CE6992B779767"
    coords 0.525 0 0.564
-   angleY -1.63
-   angleZ 0
+   angles 0 -1.63 0
   }
   GenericEntity {
    ID "552CE6992B779778"
    coords 0.092 0 -0.276
-   angleY 124.376
+   angles 0 124.376 0
   }
   GenericEntity {
    ID "552CE6992B779779"
    coords -1.045 0 -0.315
-   angleY 82.24
+   angles 0 82.24 0
   }
  }
 }
 $grp SCR_FiringRangeTarget : "{379D34B0D41DA810}Prefabs/Props/Military/Training/TargetInfantry_01.et" {
  target1 {
   coords 1340.24 8.407 1856.007
-  angleX 0.862
-  angleY 15.617
-  angleZ 0.241
+  angles 0.862 15.617 0.241
   m_iTargetDistance 5
  }
  target10 {
   coords 1334.884 8.502 1828.978
-  angleX -1.729
-  angleY 14.962
-  angleZ -0.463
+  angles -1.729 14.962 -0.463
   m_iTargetDistance 125
  }
  target11 {
   coords 1347.496 13.821 1809.424
-  angleX 0.583
-  angleY 18.991
-  angleZ -1.693
+  angles 0.583 18.991 -1.693
   m_iTargetDistance 5
  }
  target12 {
   coords 1352.538 8.394 1832.768
-  angleX -0.846
-  angleY 19.016
-  angleZ -0.292
+  angles -0.846 19.016 -0.292
   m_iTargetDistance 100
  }
  target13 {
   coords 1343.229 8.406 1832.638
-  angleY -5.107
+  angles 0 -5.107 0
   m_iTargetDistance 100
  }
  target14 {
   coords 1354.035 8.405 1830.617
-  angleX -0.874
-  angleY 18.996
-  angleZ 2.537
+  angles -0.874 18.996 2.537
   m_iTargetDistance 100
  }
  target15 {
   coords 1356.647 8.351 1837.864
-  angleX 0.292
-  angleY 19.011
-  angleZ -0.846
+  angles 0.292 19.011 -0.846
   m_iTargetDistance 5
  }
  target16 {
   coords 1348.248 8.419 1831.174
-  angleX -0.846
-  angleY 19.03
-  angleZ -0.292
+  angles -0.846 19.03 -0.292
   m_iTargetDistance 100
  }
  target17 {
   coords 1345.384 8.423 1830.894
-  angleX -0.846
-  angleY 19.03
-  angleZ -0.292
+  angles -0.846 19.03 -0.292
   m_iTargetDistance 100
  }
  target18 {
   coords 1340.721 8.406 1833.329
-  angleX 0.001
-  angleY 19.025
+  angles 0.001 19.025 0
   m_iTargetDistance 100
  }
  target19 {
   coords 1358.607 8.343 1837.301
-  angleX 0.292
-  angleY 19.011
-  angleZ -0.846
+  angles 0.292 19.011 -0.846
   m_iTargetDistance 5
  }
  target2 {
   coords 1337.682 8.424 1857.094
-  angleX 0.847
-  angleY 19.03
-  angleZ 0.292
+  angles 0.847 19.03 0.292
   m_iTargetDistance 5
  }
  target20 {
   coords 1343.456 13.895 1810.513
-  angleX 0.292
-  angleY 19.011
-  angleZ -0.846
+  angles 0.292 19.011 -0.846
   m_iTargetDistance 5
  }
  target21 {
   coords 1345.11 14 1809.909
-  angleX 0.291
-  angleY 18.995
-  angleZ -0.847
+  angles 0.291 18.995 -0.847
   m_iTargetDistance 5
  }
  target22 {
   coords 1847.648 26.277 1928.255
-  angleX 0.778
-  angleY -33.174
-  angleZ -3.712
+  angles 0.778 -33.174 -3.712
   m_iTargetDistance 5
  }
  target23 {
   coords 1845.277 26.068 1926.82
-  angleX 0.778
-  angleY -33.174
-  angleZ -3.712
+  angles 0.778 -33.174 -3.712
   m_iTargetDistance 5
  }
  target24 {
   coords 1330.231 8.895 1866.051
-  angleX -1.651
-  angleY 37.94
-  angleZ 2.117
+  angles -1.651 37.94 2.117
  }
  target25 {
   coords 1842.761 25.824 1925.23
-  angleX 0.778
-  angleY -33.174
-  angleZ -3.712
+  angles 0.778 -33.174 -3.712
   m_iTargetDistance 5
  }
  target26 {
   coords 1329.217 13.868 1815.359
-  angleX -2.499
-  angleY 17.091
-  angleZ 2.038
+  angles -2.499 17.091 2.038
  }
  target27 {
   coords 1334.435 8.464 1858.131
-  angleX 0.609
-  angleY 16.281
-  angleZ 1.11
+  angles 0.609 16.281 1.11
  }
  target28 {
   coords 1334.13 8.683 1864.989
-  angleX 1.217
-  angleY 16.262
-  angleZ 2.219
+  angles 1.217 16.262 2.219
  }
  target29 {
   coords 1850.335 26.412 1929.852
-  angleX 0.778
-  angleY -33.174
-  angleZ -3.712
+  angles 0.778 -33.174 -3.712
   m_iTargetDistance 5
  }
  target3 {
   coords 1344.032 8.361 1855.092
-  angleX 1.138
-  angleY 19.027
-  angleZ -0.554
+  angles 1.138 19.027 -0.554
   m_iTargetDistance 5
  }
  target30 {
   coords 1852.967 26.466 1931.534
-  angleX 0.778
-  angleY -33.174
-  angleZ -3.712
+  angles 0.778 -33.174 -3.712
   m_iTargetDistance 5
  }
  target31 {
   coords 1829.614 23.223 1896.695
-  angleX 4.591
-  angleY 2.767
-  angleZ -2.457
+  angles 4.591 2.767 -2.457
   m_iTargetDistance 5
  }
  target32 {
   coords 1826.848 23.096 1896.933
-  angleX 5.477
-  angleY 2.731
-  angleZ -2.414
+  angles 5.477 2.731 -2.414
   m_iTargetDistance 5
  }
  target33 {
   coords 1823.875 22.993 1897.132
-  angleX 4.506
-  angleY 2.823
-  angleZ -0.672
+  angles 4.506 2.823 -0.672
   m_iTargetDistance 5
  }
  target34 {
   coords 1832.728 23.415 1896.405
-  angleX 3.746
-  angleY 2.788
-  angleZ -3.391
+  angles 3.746 2.788 -3.391
   m_iTargetDistance 5
  }
  target35 {
   coords 1835.847 23.625 1896.219
-  angleX 2.858
-  angleY 2.84
-  angleZ -3.435
+  angles 2.858 2.84 -3.435
   m_iTargetDistance 5
  }
  target36 {
   coords 2536.177 49.708 2906.234
-  angleX 10.642
-  angleY 172.323
-  angleZ -0.539
+  angles 10.642 172.323 -0.539
   m_iTargetDistance 5
  }
  target37 {
   coords 2538.911 49.694 2906.617
-  angleX 10.758
-  angleY 172.205
-  angleZ 0.311
+  angles 10.758 172.205 0.311
   m_iTargetDistance 5
  }
  target38 {
   coords 2541.841 49.76 2907.087
-  angleX 10.762
-  angleY 169.741
-  angleZ -0.149
+  angles 10.762 169.741 -0.149
   m_iTargetDistance 5
  }
  target39 {
   coords 2533.099 49.61 2905.829
-  angleX 9.177
-  angleY 171.269
-  angleZ 1.279
+  angles 9.177 171.269 1.279
   m_iTargetDistance 5
  }
  target4 {
   coords 2500.424 45.967 2924.773
-  angleX -0.745
-  angleY 170.419
-  angleZ -4.405
+  angles -0.745 170.419 -4.405
   m_iTargetDistance 5
  }
  target40 {
   coords 2530.047 49.482 2905.329
-  angleX 9.209
-  angleY 169.646
-  angleZ 1.02
+  angles 9.209 169.646 1.02
   m_iTargetDistance 5
  }
  target41 {
   coords 2474.923 48.963 2900.252
-  angleX 0.456
-  angleY 145.366
-  angleZ -2.489
+  angles 0.456 145.366 -2.489
   m_iTargetDistance 5
  }
  target42 {
   coords 2477.28 48.646 2901.726
-  angleX -0.045
-  angleY 145.91
-  angleZ -6.428
+  angles -0.045 145.91 -6.428
   m_iTargetDistance 5
  }
  target43 {
   coords 2479.777 48.384 2903.35
-  angleX 0.745
-  angleY 146.309
-  angleZ -3.719
+  angles 0.745 146.309 -3.719
   m_iTargetDistance 5
  }
  target44 {
   coords 2472.262 49.003 2898.609
-  angleX 0.455
-  angleY 145.36
-  angleZ -2.489
+  angles 0.455 145.36 -2.489
   m_iTargetDistance 5
  }
  target45 {
   coords 2469.659 49.358 2896.878
-  angleX 4.679
-  angleY 144.767
-  angleZ -1.116
+  angles 4.679 144.767 -1.116
   m_iTargetDistance 5
  }
  target46 {
   coords 1023.279 15.166 1992.195
-  angleX -2.473
-  angleY 157.105
-  angleZ 1.044
+  angles -2.473 157.105 1.044
   m_iTargetDistance 5
  }
  target47 {
   coords 1327.585 8.554 1826.429
-  angleX -4.082
-  angleY 15.08
-  angleZ -2.023
+  angles -4.082 15.08 -2.023
   m_iTargetDistance 250
  }
  target48 {
   coords 1024.3 15.714 2000.938
-  angleX -3.295
-  angleY 157.079
-  angleZ 1.392
+  angles -3.295 157.079 1.392
   m_iTargetDistance 5
  }
  target49 {
   coords 1033.426 14.757 1987.758
-  angleX -3.167
-  angleY 157.143
-  angleZ -0.606
+  angles -3.167 157.143 -0.606
   m_iTargetDistance 5
  }
  target5 {
   coords 1342.182 8.375 1856.004
-  angleX 0.846
-  angleY 19.013
-  angleZ 0.292
+  angles 0.846 19.013 0.292
   m_iTargetDistance 5
  }
  target50 {
   coords 1037.823 14.839 1995.744
-  angleX -4.677
-  angleY 157.233
-  angleZ -1.909
+  angles -4.677 157.233 -1.909
   m_iTargetDistance 5
  }
  target51 {
   coords 1032.322 15.475 2001.332
-  angleX -4.334
-  angleY 157.179
-  angleZ -1.083
+  angles -4.334 157.179 -1.083
   m_iTargetDistance 5
  }
  target52 {
   coords 2506.554 45.415 2925.678
-  angleX 3.004
-  angleY 172.982
-  angleZ -4.862
+  angles 3.004 172.982 -4.862
   m_iTargetDistance 5
  }
  target53 {
   coords 2509.288 45.198 2926.061
-  angleX 2.214
-  angleY 172.792
-  angleZ -3.881
+  angles 2.214 172.792 -3.881
   m_iTargetDistance 5
  }
  target54 {
   coords 2512.218 45.042 2926.531
-  angleX 3.945
-  angleY 170.153
-  angleZ -3.4
+  angles 3.945 170.153 -3.4
   m_iTargetDistance 5
  }
  target55 {
   coords 2503.476 45.706 2925.273
-  angleX 0.924
-  angleY 172.207
-  angleZ -6.424
+  angles 0.924 172.207 -6.424
   m_iTargetDistance 5
  }
  target56 {
   coords 1325.754 8.438 1826.621
-  angleX -1.069
-  angleY 14.358
-  angleZ -3.043
+  angles -1.069 14.358 -3.043
   m_iTargetDistance 250
  }
  target6 {
   coords 1338.166 8.491 1828.219
-  angleX -0.865
-  angleY 14.951
-  angleZ -0.231
+  angles -0.865 14.951 -0.231
   m_iTargetDistance 125
  }
  target68 {
   coords 1324.082 8.337 1829.331
-  angleX -3.221
-  angleY 15.049
-  angleZ -1.791
+  angles -3.221 15.049 -1.791
   m_iTargetDistance 250
  }
  target7 {
   coords 1331.022 8.472 1830.14
-  angleX -3.221
-  angleY 15.049
-  angleZ -1.791
+  angles -3.221 15.049 -1.791
   m_iTargetDistance 125
  }
  target8 {
   coords 1333.148 8.504 1829.411
-  angleX -2.593
-  angleY 14.979
-  angleZ -0.693
+  angles -2.593 14.979 -0.693
   m_iTargetDistance 125
  }
  target9 {
   coords 1336.607 8.491 1828.588
-  angleX -1.96
-  angleY 14.934
-  angleZ 0.403
+  angles -1.96 14.934 0.403
   m_iTargetDistance 125
  }
  target57 {
   coords 1578.267 40.649 2409.25
-  angleX -1.687
-  angleY -19.519
-  angleZ 0.598
+  angles -1.687 -19.519 0.598
   m_iTargetDistance 5
  }
  target58 {
   coords 1571.451 40.593 2400.074
-  angleY -54.274
+  angles 0 -54.274 0
   m_iTargetDistance 5
  }
  target59 {
   coords 1591.704 40.64 2400.496
-  angleX 1.497
-  angleY 33.242
-  angleZ 0.981
+  angles 1.497 33.242 0.981
   m_iTargetDistance 5
  }
  target60 {
   coords 1617.408 40.731 2386.369
-  angleX -0.299
-  angleY -9.631
-  angleZ -1.765
+  angles -0.299 -9.631 -1.765
   m_iTargetDistance 5
  }
  target61 {
   coords 1626.93 40.996 2384.345
-  angleX 2.073
-  angleY 35.395
-  angleZ -2.915
+  angles 2.073 35.395 -2.915
   m_iTargetDistance 5
  }
  target62 {
   coords 1610.446 40.483 2379.656
-  angleX 0.777
-  angleY 25.738
-  angleZ -1.612
+  angles 0.777 25.738 -1.612
   m_iTargetDistance 5
  }
  target63 {
   coords 1606.279 43.804 2381.499
-  angleX 1.846
-  angleY 22.017
-  angleZ 1.033
+  angles 1.846 22.017 1.033
   m_iTargetDistance 5
  }
  target64 {
   coords 1608.026 40.421 2370.594
-  angleY 115.219
+  angles 0 115.219 0
   m_iTargetDistance 5
  }
  target65 {
   coords 1600.978 40.421 2374.094
-  angleY -61.6
+  angles 0 -61.6 0
   m_iTargetDistance 5
  }
  target66 {
   coords 1597.918 40.421 2367.517
-  angleY -60.742
+  angles 0 -60.742 0
   m_iTargetDistance 5
  }
  target67 {
   coords 1600.874 40.421 2365.251
-  angleY -22.284
+  angles 0 -22.284 0
   m_iTargetDistance 5
  }
  target69 {
   coords 1605.989 40.421 2369.693
-  angleY 174.794
+  angles 0 174.794 0
   m_iTargetDistance 5
  }
  target70 {
   coords 1602.409 41.384 2370.336
-  angleX 3.758
-  angleY 28.667
-  angleZ 1.679
+  angles 3.758 28.667 1.679
   m_iTargetDistance 5
  }
  target71 {
   coords 1619.927 40.926 2360.326
-  angleX 1.571
-  angleY 115.129
-  angleZ -1.24
+  angles 1.571 115.129 -1.24
   m_iTargetDistance 5
  }
  target72 {
   coords 1595.591 40.144 2358.587
-  angleX -0.706
-  angleY -156.795
-  angleZ 1.645
+  angles -0.706 -156.795 1.645
   m_iTargetDistance 5
  }
  target73 {
   coords 1566.758 40.468 2387.96
-  angleY -54.89
+  angles 0 -54.89 0
   m_iTargetDistance 5
  }
  target74 {
   coords 1568.342 40.468 2390.067
-  angleY -53.166
+  angles 0 -53.166 0
   m_iTargetDistance 5
  }
  target75 {
   coords 1595.473 40.413 2384.424
-  angleX 0.872
-  angleY -13.035
-  angleZ -0.202
+  angles 0.872 -13.035 -0.202
   m_iTargetDistance 5
  }
 }
-GenericEntity : "{388B774519BD6294}Prefabs/Props/Wrecks/T62_wreck.et" {
+GenericEntity : "{388B774519BD6294}Prefabs/Props/Wrecks/T62_wreck/T62_wreck.et" {
  coords 1334.613 8.694 1824.102
- angleX 1.304
- angleY -80.142
- angleZ 2.949
+ angles 1.304 -80.142 2.949
 }
 $grp GenericEntity : "{40D93F5C348BF244}Prefabs/Structures/Signs/Large/SignLarge_TTT.et" {
  {
   coords 1391.079 10.854 1886.744
-  angleX 1.56
-  angleY 9.848
-  angleZ 1.373
+  angles 1.56 9.848 1.373
  }
  {
   coords 1295.758 10.756 1867.052
-  angleX 1.509
-  angleY 23.017
-  angleZ 0.408
+  angles 1.509 23.017 0.408
  }
  {
   coords 1589.557 8.258 1996.239
-  angleX 0.37
-  angleY 84.186
-  angleZ 1.519
+  angles 0.37 84.186 1.519
  }
 }
 $grp SCR_DestructibleEntity : "{43EB690D46E15669}Prefabs/Structures/Walls/Concrete/ConcreteWall_01/ConcreteWall_01_6m_B.et" {
  {
   coords 1318.958 0.541 1870.402
-  angleX 1.153
-  angleY -49.898
-  angleZ 0.619
+  angles 1.153 -49.898 0.619
  }
  {
   coords 1322.862 0.23 1874.998
-  angleX 1.024
-  angleY -49.836
-  angleZ -0.325
+  angles 1.024 -49.836 -0.325
  }
  {
   coords 1326.737 0 1879.569
-  angleX 2.52
-  angleY -50.133
-  angleZ -0.681
+  angles 2.52 -50.133 -0.681
  }
  {
   coords 1315.512 0.776 1865.598
-  angleX 0.743
-  angleY -53.411
-  angleZ -0.696
+  angles 0.743 -53.411 -0.696
  }
 }
 GenericEntity : "{484A4610E5C85002}Prefabs/Structures/Walls/Brick/BrickWall_02/dst/Brick_wall_02_4m_D_dst_01_dbr_02_base.et" {
  coords 1345.134 8.377 1856.109
- angleX 0.855
- angleY 17.215
- angleZ 0.265
+ angles 0.855 17.215 0.265
 }
 GenericEntity : "{4FCD36D302D4F0B6}Prefabs/Structures/Walls/Brick/BrickWall_02/dst/Brick_wall_02_4m_dst_01_weathered.et" {
  coords 1333.168 8.504 1859.429
- angleX 0.596
- angleY 16.906
- angleZ 1.117
-}
-GenericEntity : "{571F3532D1177DA1}Prefabs/Props/Military/Arsenal/WeaponRacks/US/WeaponRackStandArsenal_US.et" {
- components {
-  SCR_ArsenalDisplayComponent "{589E95D89A024D21}" {
-   m_eSupportedArsenalItemModes 14
-   m_OverwriteArsenalConfig SCR_ArsenalItemListConfig "{6288F68595B284BB}" {
-    m_aArsenalItems {
-     SCR_ArsenalItemStandalone "{6288F6859767CB28}" {
-      m_eItemType MACHINE_GUN
-      m_eItemMode WEAPON
-      m_eArsenalGameModeTypes 0
-      m_iSupplyCost 0
-      m_aArsenalDisplayData {
-       SCR_ArsenalItemDisplayData "{6288F685A194DE59}" {
-       }
-      }
-      m_ItemResourceName "{D96BF821125E194A}Prefabs/Weapons/MachineGuns/M249/Bacon_MG_M249_Rails.et"
-     }
-    }
-   }
-  }
- }
- coords 1351.24 10.319 1883.062
- angleY -165.142
+ angles 0.596 16.906 1.117
 }
 $grp GenericEntity : "{5FFD91CF507BFFFB}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Ammunition_US.et" {
  {
@@ -863,19 +653,19 @@ $grp GenericEntity : "{5FFD91CF507BFFFB}Prefabs/Props/Military/Arsenal/AmmoBoxes
       SCR_ArsenalItemStandalone "{6288F6844489F4CE}" {
        m_eItemMode AMMUNITION
        m_iSupplyCost 0
-       m_ItemResourceName "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Last_5Tracer.et"
+       m_ItemResourceName "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et"
       }
       SCR_ArsenalItemStandalone "{6288F68445F4C4CE}" {
        m_eItemMode AMMUNITION
        m_iSupplyCost 0
-       m_ItemResourceName "{A9A385FE1F7BF4BD}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_Tracer.et"
+       m_ItemResourceName "{A9A385FE1F7BF4BD}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M856_Tracer.et"
       }
      }
     }
    }
   }
   coords 1346.806 10.812 1884.033
-  angleY -165.837
+  angles 0 -165.837 0
  }
  {
   components {
@@ -899,250 +689,174 @@ $grp GenericEntity : "{5FFD91CF507BFFFB}Prefabs/Props/Military/Arsenal/AmmoBoxes
    }
   }
   coords 1353.101 10.799 1882.371
-  angleY -165.837
+  angles 0 -165.837 0
  }
 }
 SCR_DestructibleEntity : "{612E8B064E5A13C1}Prefabs/Structures/Walls/Brick/BrickWallOld_01/BrickWallOld_01_End_white.et" {
  coords 1336.526 0.371 1858.403
- angleY 15.632
+ angles 0 15.632 0
 }
 $grp GenericEntity : "{64C9C1D1C2C1B38D}Prefabs/Props/Infrastructure/Roadblocks/RoadBlock_01.et" {
  {
   coords 1866.502 30.027 1994.305
-  angleX 5.683
-  angleY 57.275
-  angleZ 0.59
+  angles 5.683 57.275 0.59
  }
  {
   coords 1865.05 30.059 1996.688
-  angleX 5.683
-  angleY 57.275
-  angleZ 0.59
+  angles 5.683 57.275 0.59
  }
  {
   coords 2255.146 63.621 1834.552
-  angleX 0.046
-  angleY 0.592
-  angleZ -4.467
+  angles 0.046 0.592 -4.467
  }
  {
   coords 2252.366 63.36 1834.65
-  angleX -0.787
-  angleY 0.864
-  angleZ -7.137
+  angles -0.787 0.864 -7.137
  }
  {
   coords 2403.332 82.057 1946.179
-  angleX 8.808
-  angleY 119.467
-  angleZ -1.14
+  angles 8.808 119.467 -1.14
  }
  {
   coords 2404.747 82.04 1948.57
-  angleX 8.808
-  angleY 119.467
-  angleZ -1.14
+  angles 8.808 119.467 -1.14
  }
  {
   coords 2514.433 94.277 1903.105
-  angleX -2.59
-  angleY 174.73
-  angleZ 1.137
+  angles -2.59 174.73 1.137
  }
  {
   coords 2517.199 94.298 1903.296
-  angleX -2.598
-  angleY 175.104
-  angleZ 1.12
+  angles -2.598 175.104 1.12
  }
  {
   coords 2258.672 65.57 2619.705
-  angleX -3.676
-  angleY 9.711
-  angleZ 0.278
+  angles -3.676 9.711 0.278
  }
  {
   coords 2255.943 65.545 2620.259
-  angleX -3.369
-  angleY 9.95
-  angleZ -1.498
+  angles -3.369 9.95 -1.498
  }
  {
   coords 2043.728 45.076 2719.699
-  angleX 2.816
-  angleY 23.921
-  angleZ 0.27
+  angles 2.816 23.921 0.27
  }
  {
   coords 2041.213 45.079 2720.902
-  angleX 1.999
-  angleY 23.937
-  angleZ -0.092
+  angles 1.999 23.937 -0.092
  }
  {
   coords 1852.094 39.353 2782.614
-  angleX 0.484
-  angleY 57.244
-  angleZ 0.753
+  angles 0.484 57.244 0.753
  }
  {
   coords 1850.641 39.375 2784.997
-  angleY 57.275
+  angles 0 57.275 0
  }
  {
   coords 1642.011 7.567 1996.59
-  angleX -1.574
-  angleY 37.903
-  angleZ 7.8
+  angles -1.574 37.903 7.8
  }
  {
   coords 1633.887 7.745 2001.842
-  angleX 1.277
-  angleY 38.463
-  angleZ 5.569
+  angles 1.277 38.463 5.569
  }
  {
   coords 2617.662 86.129 1935.441
-  angleX 9.051
-  angleY -80.049
-  angleZ -0.214
+  angles 9.051 -80.049 -0.214
  }
  {
   coords 2618.185 86.204 1938.159
-  angleX 7.462
-  angleY -80.588
-  angleZ -1.465
+  angles 7.462 -80.588 -1.465
  }
  {
   coords 2578.158 128.356 2207.068
-  angleX -8.349
-  angleY 79.699
-  angleZ 8.648
+  angles -8.349 79.699 8.648
  }
  {
   coords 2578.541 127.947 2204.323
-  angleX -8.292
-  angleY 79.323
-  angleZ 8.702
+  angles -8.292 79.323 8.702
  }
  {
   coords 2562.001 78.251 2748.327
-  angleX -9.429
-  angleY -67.026
-  angleZ 1.776
+  angles -9.429 -67.026 1.776
  }
  {
   coords 2563.137 78.085 2750.852
-  angleX -9.082
-  angleY -68.053
-  angleZ 5.866
+  angles -9.082 -68.053 5.866
  }
  {
   coords 2589.151 69.011 2814.319
-  angleX -2.083
-  angleY -104.86
-  angleZ 6.083
+  angles -2.083 -104.86 6.083
  }
  {
   coords 2589.802 69.238 2811.626
-  angleX -1.483
-  angleY -104.455
-  angleZ 4.991
+  angles -1.483 -104.455 4.991
  }
  {
   coords 2588.54 68.667 2817.712
-  angleX -4.196
-  angleY -103.235
-  angleZ 5.555
+  angles -4.196 -103.235 5.555
  }
  {
   coords 2461.7 51.876 2876.471
-  angleX 8.047
-  angleY -171.306
-  angleZ 0.33
+  angles 8.047 -171.306 0.33
  }
  {
   coords 2587.957 68.279 2820.419
-  angleX -5
-  angleY -103.926
-  angleZ 9.422
+  angles -5 -103.926 9.422
  }
  {
   coords 2458.966 51.836 2876.931
-  angleX 6.175
-  angleY -171.6
-  angleZ 0.91
+  angles 6.175 -171.6 0.91
  }
  {
   coords 2372.235 65.142 2770.244
-  angleX -5.08
-  angleY 134.329
-  angleZ -2.461
+  angles -5.08 134.329 -2.461
  }
  {
   coords 2374.212 65.008 2772.187
-  angleX -5.688
-  angleY 134.878
-  angleZ -4.389
+  angles -5.688 134.878 -4.389
  }
  {
   coords 2595.646 111.291 2492.192
-  angleX 0.193
-  angleY 149.737
-  angleZ -3.219
+  angles 0.193 149.737 -3.219
  }
  {
   coords 2593.209 111.419 2490.858
-  angleX -0.128
-  angleY 149.771
-  angleZ -1.997
+  angles -0.128 149.771 -1.997
  }
  {
   coords 2596.093 111.222 2496.777
-  angleX -3.014
-  angleY 77.145
-  angleZ -1.146
+  angles -3.014 77.145 -1.146
  }
  {
   coords 2596.639 111.253 2494.05
-  angleX -3.336
-  angleY 77.167
-  angleZ 0.074
+  angles -3.336 77.167 0.074
  }
  {
   coords 2594.776 111.16 2502.243
-  angleX -1.951
-  angleY 76.29
-  angleZ -0.445
+  angles -1.951 76.29 -0.445
  }
  {
   coords 2595.362 111.183 2499.525
-  angleX -1.951
-  angleY 76.31
-  angleZ -0.446
+  angles -1.951 76.31 -0.446
  }
  {
   coords 2592.998 111.18 2503.462
-  angleX 1.111
-  angleY -163.619
-  angleZ -0.606
+  angles 1.111 -163.619 -0.606
  }
  {
   coords 2590.353 111.234 2504.321
-  angleX 1.364
-  angleY -163.586
-  angleZ -1.464
+  angles 1.364 -163.586 -1.464
  }
 }
 GenericEntity : "{6E84387991C01C6D}Prefabs/Props/Military/Training/Obstacles/ObstacleClimb_01.et" {
  coords 1358.398 10.326 1877.66
- angleY -165.823
+ angles 0 -165.823 0
 }
 SCR_DestructibleEntity : "{72EBDC501189E69B}Prefabs/Structures/Walls/Wooden/WoodenWall_01/WoodenWall_01_red_8m.et" {
  coords 1006.276 0 1970.425
- angleX -0.377
- angleY 127.414
- angleZ 1.965
+ angles -0.377 127.414 1.965
 }
 $grp GenericEntity : "{754BF6213A318556}Prefabs/Props/Industrial/ConcretePanel_01_D.et" {
  {
@@ -1152,9 +866,7 @@ $grp GenericEntity : "{754BF6213A318556}Prefabs/Props/Industrial/ConcretePanel_0
    }
   }
   coords 1289.178 12.188 1895.019
-  angleX 1.133
-  angleY -71.545
-  angleZ -3.392
+  angles 1.133 -71.545 -3.392
  }
  {
   components {
@@ -1163,9 +875,7 @@ $grp GenericEntity : "{754BF6213A318556}Prefabs/Props/Industrial/ConcretePanel_0
    }
   }
   coords 1282.214 11.554 1873.917
-  angleX 2.265
-  angleY -71.612
-  angleZ 1.695
+  angles 2.265 -71.612 1.695
  }
  {
   components {
@@ -1174,9 +884,7 @@ $grp GenericEntity : "{754BF6213A318556}Prefabs/Props/Industrial/ConcretePanel_0
    }
   }
   coords 1376.091 9.952 1873.494
-  angleX -1.519
-  angleY -165.922
-  angleZ -1.303
+  angles -1.519 -165.922 -1.303
  }
  {
   components {
@@ -1185,9 +893,7 @@ $grp GenericEntity : "{754BF6213A318556}Prefabs/Props/Industrial/ConcretePanel_0
    }
   }
   coords 1049.62 12.699 1950.28
-  angleX -3.19
-  angleY 163.926
-  angleZ 1.848
+  angles -3.19 163.926 1.848
  }
  {
   components {
@@ -1196,9 +902,7 @@ $grp GenericEntity : "{754BF6213A318556}Prefabs/Props/Industrial/ConcretePanel_0
    }
   }
   coords 1053.346 12.82 1951.291
-  angleX -3.226
-  angleY 165.072
-  angleZ 1.784
+  angles -3.226 165.072 1.784
  }
  {
   components {
@@ -1207,9 +911,7 @@ $grp GenericEntity : "{754BF6213A318556}Prefabs/Props/Industrial/ConcretePanel_0
    }
   }
   coords 1042.022 12.332 1947.302
-  angleX -1.916
-  angleY 145.175
-  angleZ 3.509
+  angles -1.916 145.175 3.509
  }
  {
   components {
@@ -1218,9 +920,7 @@ $grp GenericEntity : "{754BF6213A318556}Prefabs/Props/Industrial/ConcretePanel_0
    }
   }
   coords 1038.783 12.128 1945.145
-  angleX -1.693
-  angleY 145.184
-  angleZ 2.266
+  angles -1.693 145.184 2.266
  }
  {
   components {
@@ -1229,9 +929,7 @@ $grp GenericEntity : "{754BF6213A318556}Prefabs/Props/Industrial/ConcretePanel_0
    }
   }
   coords 1045.892 12.535 1948.622
-  angleX -2.764
-  angleY 160.262
-  angleZ 2.889
+  angles -2.764 160.262 2.889
  }
  {
   components {
@@ -1240,9 +938,7 @@ $grp GenericEntity : "{754BF6213A318556}Prefabs/Props/Industrial/ConcretePanel_0
    }
   }
   coords 1035.602 11.85 1942.889
-  angleX -4.264
-  angleY 142.939
-  angleZ 7.646
+  angles -4.264 142.939 7.646
  }
  {
   components {
@@ -1251,9 +947,7 @@ $grp GenericEntity : "{754BF6213A318556}Prefabs/Props/Industrial/ConcretePanel_0
    }
   }
   coords 1032.599 11.647 1940.563
-  angleX -0.577
-  angleY 139.827
-  angleZ -0.684
+  angles -0.577 139.827 -0.684
  }
  {
   components {
@@ -1262,9 +956,7 @@ $grp GenericEntity : "{754BF6213A318556}Prefabs/Props/Industrial/ConcretePanel_0
    }
   }
   coords 1029.638 11.664 1938.101
-  angleX -1.261
-  angleY 140.114
-  angleZ -0.113
+  angles -1.261 140.114 -0.113
  }
  {
   components {
@@ -1273,177 +965,127 @@ $grp GenericEntity : "{754BF6213A318556}Prefabs/Props/Industrial/ConcretePanel_0
    }
   }
   coords 1026.689 11.78 1935.627
-  angleX -1.721
-  angleY 140.13
-  angleZ -2.059
+  angles -1.721 140.13 -2.059
  }
 }
-GenericEntity : "{75FEF1CA582431F3}Prefabs/Props/Wrecks/BTR70_wreck.et" {
+GenericEntity : "{75FEF1CA582431F3}Prefabs/Props/Wrecks/BTR70_Wreck/BTR70_wreck.et" {
  coords 1323.915 13.357 1815.741
- angleX 0.235
- angleY 108.404
- angleZ -0.978
+ angles 0.235 108.404 -0.978
 }
-GenericEntity : "{7783AE4B44D3CF29}Prefabs/Props/Wrecks/M923A1_wreck.et" {
+GenericEntity : "{7783AE4B44D3CF29}Prefabs/Props/Wrecks/M923A1_wreck/M923A1_wreck.et" {
  coords 1348.237 8.451 1828.886
- angleX 1.189
- angleY -114.945
- angleZ 0.434
+ angles 1.189 -114.945 0.434
 }
 $grp GenericEntity : "{7AF4B627D5C90235}Prefabs/Props/Military/Sandbags/Sandbag_01_round_high_burlap.et" {
  {
   coords 1356.441 8.339 1839.216
-  angleY -20.05
+  angles 0 -20.05 0
  }
  {
   coords 1043.294 12.669 1951.884
-  angleX -0.225
-  angleY -66.652
-  angleZ -3.991
+  angles -0.225 -66.652 -3.991
  }
  {
   coords 1045.543 12.781 1952.628
-  angleX 3.619
-  angleY 25.027
-  angleZ 0.702
+  angles 3.619 25.027 0.702
  }
 }
 GenericEntity : "{825650E9DE88EB61}Prefabs/Structures/BuildingParts/Doors/DoorSet_Village_E_01_L_INT_COV_B_Brown.et" {
  coords 1340.58 8.432 1857.304
- angleX 0.001
- angleY 16.427
- angleZ -0.001
+ angles 0.001 16.427 -0.001
 }
 $grp StaticModelEntity : "{A46D45922F8CAD6C}Prefabs/Props/Military/Fortification/CzechHedgehog_01_painted.et" {
  {
   coords 1552.409 -0.001 2617.087
-  angleY -24.125
+  angles 0 -24.125 0
  }
  {
   coords 1550.595 -0.001 2617.975
-  angleY -24.125
+  angles 0 -24.125 0
  }
  {
   coords 1548.974 0 2618.81
-  angleX 0.817
-  angleY -24.131
-  angleZ -0.366
+  angles 0.817 -24.131 -0.366
  }
  {
   coords 1547.239 0 2619.212
-  angleX 0.451
-  angleY -24.135
-  angleZ -1.183
+  angles 0.451 -24.135 -1.183
  }
 }
 $grp StaticModelEntity : "{A9E43B52EC218BFF}Prefabs/Structures/Infrastructure/Pavements/ConcreteTreepot_01/ConcreteTreepot_01.et" {
  {
   coords 1044.092 0.001 1950.001
-  angleX 2.747
-  angleY -20.074
-  angleZ -2.905
+  angles 2.747 -20.074 -2.905
  }
  {
   coords 1043.429 -0.041 1951.915
-  angleX 3.671
-  angleY -18.507
-  angleZ -3.109
+  angles 3.671 -18.507 -3.109
  }
  {
   coords 1045.587 0.007 1952.566
-  angleX 3.11
-  angleY -18.454
-  angleZ -1.979
+  angles 3.11 -18.454 -1.979
  }
  {
   coords 1046.213 0.001 1950.75
-  angleX 3.053
-  angleY -20.08
-  angleZ -2.066
+  angles 3.053 -20.08 -2.066
  }
  {
   coords 1029.401 0 1943.177
-  angleX 1.255
-  angleY -37.408
-  angleZ 0.167
+  angles 1.255 -37.408 0.167
  }
  {
   coords 1030.595 0 1941.594
-  angleX 0.544
-  angleY -37.407
-  angleZ 0.711
+  angles 0.544 -37.407 0.711
  }
  {
   coords 1032.395 0 1942.94
-  angleX 3.549
-  angleY -37.459
-  angleZ -2.715
+  angles 3.549 -37.459 -2.715
  }
  {
   coords 1031.192 0 1944.497
-  angleX 3.331
-  angleY -37.523
-  angleZ -5.916
+  angles 3.331 -37.523 -5.916
  }
 }
 $grp GenericEntity : "{B31A14BC1A0E7776}Prefabs/Props/Military/Sandbags/Sandbag_01_round_burlap.et" {
  {
   coords 1033.57 14.726 1987.207
-  angleX -2.994
-  angleY 168.104
-  angleZ -1.197
+  angles -2.994 168.104 -1.197
  }
  {
   coords 1023.705 15.131 1991.46
-  angleX -2.464
-  angleY 156.63
-  angleZ 1.064
+  angles -2.464 156.63 1.064
  }
  {
   coords 1038.127 14.767 1994.925
-  angleX -4.412
-  angleY 168.195
-  angleZ -3.633
+  angles -4.412 168.195 -3.633
  }
  {
   coords 1032.707 15.406 2000.524
-  angleX -4.05
-  angleY 168.139
-  angleZ -1.887
+  angles -4.05 168.139 -1.887
  }
  {
   coords 1024.666 15.676 2000.311
-  angleX -3.277
-  angleY 156.353
-  angleZ 1.434
+  angles -3.277 156.353 1.434
  }
 }
 $grp GenericEntity : "{B547CF929FCC6BB7}Prefabs/Props/Military/Sandbags/Sandbag_01_end_high_burlap.et" {
  {
   coords 1358.665 8.085 1838.873
-  angleX 1.146
-  angleY 19.939
-  angleZ -0.536
+  angles 1.146 19.939 -0.536
  }
  {
   coords 1344.429 13.584 1811.279
-  angleX -1.123
-  angleY -162.513
-  angleZ 0.585
+  angles -1.123 -162.513 0.585
  }
 }
-$grp GenericEntity : "{B90E5414AB7C325B}Prefabs/Props/Wrecks/BTR70_wreck_static.et" {
+$grp GenericEntity : "{B90E5414AB7C325B}Prefabs/Props/Wrecks/BTR70_Wreck/BTR70_wreck_static.et" {
  {
   coords 1841.141 24.974 1914.156
-  angleX 5.674
-  angleY 58.09
-  angleZ 0.67
+  angles 5.674 58.09 0.67
  }
  {
   coords 2484.916 47.883 2906.457
-  angleX -4.646
-  angleY 68.154
-  angleZ -1.984
+  angles -4.646 68.154 -1.984
  }
 }
 $grp GenericEntity : "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_01_long_high_burlap.et" {
@@ -1454,9 +1096,7 @@ $grp GenericEntity : "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_
    }
   }
   coords 1346.96 9.816 1880.073
-  angleX 0.905
-  angleY 15.668
-  angleZ -1.352
+  angles 0.905 15.668 -1.352
  }
  {
   components {
@@ -1465,9 +1105,7 @@ $grp GenericEntity : "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_
    }
   }
   coords 1350.097 9.773 1879.232
-  angleX 0.905
-  angleY 15.668
-  angleZ -1.352
+  angles 0.905 15.668 -1.352
  }
  {
   components {
@@ -1476,9 +1114,7 @@ $grp GenericEntity : "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_
    }
   }
   coords 1353.256 9.838 1878.367
-  angleX 0.905
-  angleY 15.668
-  angleZ -1.352
+  angles 0.905 15.668 -1.352
  }
  {
   components {
@@ -1487,9 +1123,7 @@ $grp GenericEntity : "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_
    }
   }
   coords 1340.678 9.798 1881.772
-  angleX 0.285
-  angleY 15.651
-  angleZ -2.456
+  angles 0.285 15.651 -2.456
  }
  {
   components {
@@ -1498,9 +1132,7 @@ $grp GenericEntity : "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_
    }
   }
   coords 1343.865 9.798 1880.954
-  angleX 0.285
-  angleY 15.651
-  angleZ -2.456
+  angles 0.285 15.651 -2.456
  }
  {
   components {
@@ -1509,9 +1141,7 @@ $grp GenericEntity : "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_
    }
   }
   coords 1366.442 10.096 1875.908
-  angleX 0.285
-  angleY 15.651
-  angleZ -2.456
+  angles 0.285 15.651 -2.456
  }
  {
   components {
@@ -1520,9 +1150,7 @@ $grp GenericEntity : "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_
    }
   }
   coords 1369.544 10.006 1875.311
-  angleX 0.285
-  angleY 15.651
-  angleZ -2.456
+  angles 0.285 15.651 -2.456
  }
  {
   components {
@@ -1531,119 +1159,60 @@ $grp GenericEntity : "{BE16EE8FAA315FE2}Prefabs/Props/Military/Sandbags/Sandbag_
    }
   }
   coords 1372.717 10.073 1874.585
-  angleX 0.285
-  angleY 15.651
-  angleZ 0.755
+  angles 0.285 15.651 0.755
  }
  {
   coords 1346.901 13.532 1810.455
-  angleY 16.446
+  angles 0 16.446 0
  }
  {
   coords 1041.971 12.413 1949.417
-  angleX 2.634
-  angleY -35.059
-  angleZ -4.026
+  angles 2.634 -35.059 -4.026
  }
  {
   coords 1039.3 12.315 1947.527
-  angleX 2.634
-  angleY -35.059
-  angleZ -4.026
+  angles 2.634 -35.059 -4.026
  }
  {
   coords 1048.123 12.764 1951.645
-  angleX 3.203
-  angleY -15.663
-  angleZ -1.825
+  angles 3.203 -15.663 -1.825
  }
  {
   coords 1051.299 12.866 1952.486
-  angleX 3.285
-  angleY -12.986
-  angleZ -1.674
+  angles 3.285 -12.986 -1.674
  }
  {
   coords 1054.422 12.876 1953.256
-  angleX 3.957
-  angleY -12.889
-  angleZ -2.735
+  angles 3.957 -12.889 -2.735
  }
  {
   coords 1037.081 11.817 1946.009
-  angleX 2.634
-  angleY -35.059
-  angleZ -4.026
+  angles 2.634 -35.059 -4.026
  }
  {
   coords 1034.41 11.719 1944.119
-  angleX 2.634
-  angleY -35.059
-  angleZ -4.026
+  angles 2.634 -35.059 -4.026
  }
  {
   coords 1029.09 11.697 1939.703
-  angleX 1.26
-  angleY -39.64
-  angleZ 0.118
+  angles 1.26 -39.64 0.118
  }
  {
   coords 1026.622 11.716 1937.592
-  angleX -0.117
-  angleY -39.715
-  angleZ 1.26
+  angles -0.117 -39.715 1.26
  }
  {
   coords 1032.213 11.792 1945.238
-  angleX 8.498
-  angleY 50.809
-  angleZ 3.375
+  angles 8.498 50.809 3.375
  }
  {
   coords 1028.484 11.713 1942.095
-  angleX -0.11
-  angleY 49.992
-  angleZ 1.261
+  angles -0.11 49.992 1.261
  }
  {
   coords 1024.145 11.638 1935.543
-  angleX -0.133
-  angleY -38.979
-  angleZ 1.259
+  angles -0.133 -38.979 1.259
  }
-}
-GenericEntity : "{BF01609BADFB3B42}Prefabs/Props/Military/Arsenal/WeaponRacks/US/WeaponRackCabinetArsenal_US.et" {
- components {
-  SCR_ArsenalDisplayComponent "{589F01C8E2FEDEE5}" {
-   m_OverwriteArsenalConfig SCR_ArsenalItemListConfig "{6288F685F5102F85}" {
-    m_aArsenalItems {
-     SCR_ArsenalItemStandalone "{6288F685F6D8A074}" {
-      m_eItemMode WEAPON_VARIANTS
-      m_eArsenalGameModeTypes 0
-      m_iSupplyCost 0
-      m_aArsenalDisplayData {
-       SCR_ArsenalItemDisplayData "{6288F6855B1DE709}" {
-       }
-      }
-      m_ItemResourceName "{61C6D7507EB9857C}Prefabs/5AB890B71D748750/Weapon_Variants_B/Rifle_M4_Variant_Block2_UGL.et"
-     }
-     SCR_ArsenalItemStandalone "{6288F685F75E2FDD}" {
-      m_eItemType PISTOL
-      m_eItemMode WEAPON
-      m_eArsenalGameModeTypes 0
-      m_iSupplyCost 0
-      m_aArsenalDisplayData {
-       SCR_ArsenalItemDisplayData "{6288F6855FAF8E02}" {
-       }
-      }
-      m_ItemResourceName "{1353C6EAD1DCFE43}Prefabs/Weapons/Handguns/M9/Handgun_M9.et"
-     }
-    }
-   }
-  }
- }
- coords 1345.035 10.219 1884.738
- angleY -166.049
 }
 GenericEntity : "{C026AEDDA55DB43C}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/AmmoBoxArsenal_Launcher_US.et" {
  components {
@@ -1660,29 +1229,25 @@ GenericEntity : "{C026AEDDA55DB43C}Prefabs/Props/Military/Arsenal/AmmoBoxes/US/A
   }
  }
  coords 1378.214 10.786 1872.683
- angleX 2.172
- angleY -75.881
- angleZ -1.298
+ angles 2.172 -75.881 -1.298
 }
-GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Area.et" {
+GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Components/Area.et" {
  components {
   SCR_ScenarioFrameworkArea "{59E8CDC50969206E}" {
+   m_bShowDebugShapesInWorkbench 1
    m_bDynamicDespawn 1
    m_iDynamicDespawnRange 400
-   m_bShowDebugShapesInWorkbench 1
   }
  }
  coords 1359.562 8.562 1858.566
- angleY -0.042
+ angles 0 -0.042 0
  {
-  $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+  $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
    ShootingRangeLayer {
     coords -0.02 0.425 -0.007
-    angleX 0.892
-    angleY -0.042
-    angleZ -2.684
+    angles 0.892 -0.042 -2.684
     {
-     $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+     $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
       Slot27 {
        components {
         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
@@ -1691,9 +1256,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 3.731 0.881 18.262
-       angleX 1.444
-       angleY -167.721
-       angleZ -2.433
+       angles 1.444 -167.721 -2.433
       }
       Slot54 {
        components {
@@ -1703,9 +1266,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -76.184 5.824 17.692
-       angleX 1.76
-       angleY -160.829
-       angleZ -5.07
+       angles 1.76 -160.829 -5.07
       }
       Slot55 {
        components {
@@ -1715,9 +1276,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -70.729 5.809 34.289
-       angleX -3.123
-       angleY -162.018
-       angleZ -1.947
+       angles -3.123 -162.018 -1.947
       }
       Slot59 {
        components {
@@ -1727,9 +1286,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 18.8 -0.201 14.104
-       angleX -4.556
-       angleY 103.755
-       angleZ -0.187
+       angles -4.556 103.755 -0.187
       }
       Slot60 {
        components {
@@ -1739,9 +1296,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 17.585 -0.132 13.274
-       angleX 0.007
-       angleY -165.764
-       angleZ -3.687
+       angles 0.007 -165.764 -3.687
       }
       Slot61 {
        components {
@@ -1751,9 +1306,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 17.391 0.785 13.572
-       angleX 3.427
-       angleY -97.565
-       angleZ -1.362
+       angles 3.427 -97.565 -1.362
       }
       Slot62 {
        components {
@@ -1763,9 +1316,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 17.784 0.759 13.474
-       angleX 3.427
-       angleY -97.565
-       angleZ -1.362
+       angles 3.427 -97.565 -1.362
       }
       Slot63 {
        components {
@@ -1775,9 +1326,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 18.1 0.738 13.356
-       angleX 3.427
-       angleY -97.565
-       angleZ -1.362
+       angles 3.427 -97.565 -1.362
       }
       Slot64 {
        components {
@@ -1787,9 +1336,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 17.708 0.81 13.051
-       angleX 3.687
-       angleY -75.837
-       angleZ -89.304
+       angles 3.687 -75.837 -89.304
       }
       Slot65 {
        components {
@@ -1799,9 +1346,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 4.766 0.941 17.839
-       angleX 2.382
-       angleY -75.742
-       angleZ 1.525
+       angles 2.382 -75.742 1.525
       }
       Slot66 {
        components {
@@ -1811,9 +1356,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 4.447 0.953 18.009
-       angleX 2.382
-       angleY -75.742
-       angleZ 1.525
+       angles 2.382 -75.742 1.525
       }
       Slot67 {
        components {
@@ -1823,9 +1366,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 5.076 0.914 18.233
-       angleX 0.591
-       angleY -30.44
-       angleZ 2.766
+       angles 0.591 -30.44 2.766
       }
       Slot68 {
        components {
@@ -1835,9 +1376,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 4.678 0.931 18.385
-       angleX 0.928
-       angleY -37.522
-       angleZ 2.672
+       angles 0.928 -37.522 2.672
       }
       Slot96 {
        components {
@@ -1847,9 +1386,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -76.082 6.717 17.446
-       angleX 4.895
-       angleY -65.679
-       angleZ 2.201
+       angles 4.895 -65.679 2.201
       }
       Slot97 {
        components {
@@ -1859,9 +1396,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -70.551 6.716 34.431
-       angleX 1.971
-       angleY -71.632
-       angleZ -3.108
+       angles 1.971 -71.632 -3.108
       }
       Slot110 {
        components {
@@ -1871,9 +1406,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -5.378 1.819 23.618
-       angleX 9.315
-       angleY 102.363
-       angleZ -1.477
+       angles 9.315 102.363 -1.477
       }
       Slot111 {
        components {
@@ -1883,20 +1416,16 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -4.138 1.772 23.235
-       angleX 9.315
-       angleY 102.363
-       angleZ -1.477
+       angles 9.315 102.363 -1.477
       }
      }
     }
    }
    ExplosiveRangeLayer {
     coords -309.369 -10.088 74.362
-    angleX 1.781
-    angleY -0.153
-    angleZ -3.583
+    angles 1.781 -0.153 -3.583
     {
-     $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+     $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
       Slot28 {
        components {
         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
@@ -1905,9 +1434,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -32.627 14.997 39.724
-       angleX -2.748
-       angleY 57.93
-       angleZ 0.672
+       angles -2.748 57.93 0.672
       }
       Slot56 {
        components {
@@ -1917,9 +1444,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -11.743 14.098 12.457
-       angleX -2.267
-       angleY 145.249
-       angleZ -1.689
+       angles -2.267 145.249 -1.689
       }
       Slot57 {
        components {
@@ -1929,9 +1454,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -0.564 13.828 18.187
-       angleX -2.487
-       angleY 163.29
-       angleZ -2.048
+       angles -2.487 163.29 -2.048
       }
       Slot58 {
        components {
@@ -1941,9 +1464,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -10.113 14.038 13.545
-       angleX -2.271
-       angleY 145.096
-       angleZ -1.683
+       angles -2.271 145.096 -1.683
       }
       Slot69 {
        components {
@@ -1953,9 +1474,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -0.948 14.751 17.763
-       angleX -1.332
-       angleY 58.192
-       angleZ 2.934
+       angles -1.332 58.192 2.934
       }
       Slot70 {
        components {
@@ -1965,9 +1484,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -1.047 14.761 17.922
-       angleX -1.332
-       angleY 58.192
-       angleZ 2.934
+       angles -1.332 58.192 2.934
       }
       Slot71 {
        components {
@@ -1977,9 +1494,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -1.141 14.769 18.067
-       angleX -1.332
-       angleY 58.192
-       angleZ 2.934
+       angles -1.332 58.192 2.934
       }
       Slot72 {
        components {
@@ -1989,9 +1504,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -1.161 14.775 18.238
-       angleX -1.332
-       angleY 58.192
-       angleZ 2.934
+       angles -1.332 58.192 2.934
       }
       Slot73 {
        components {
@@ -2001,9 +1514,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -0.779 14.747 17.782
-       angleX -1.332
-       angleY 58.192
-       angleZ 2.934
+       angles -1.332 58.192 2.934
       }
       Slot74 {
        components {
@@ -2013,9 +1524,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -0.878 14.757 17.942
-       angleX -1.332
-       angleY 58.192
-       angleZ 2.934
+       angles -1.332 58.192 2.934
       }
       Slot75 {
        components {
@@ -2025,9 +1534,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -0.972 14.765 18.086
-       angleX -1.332
-       angleY 58.192
-       angleZ 2.934
+       angles -1.332 58.192 2.934
       }
       Slot76 {
        components {
@@ -2037,9 +1544,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -0.992 14.771 18.257
-       angleX -1.332
-       angleY 58.192
-       angleZ 2.934
+       angles -1.332 58.192 2.934
       }
       Slot77 {
        components {
@@ -2049,9 +1554,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -0.602 14.801 17.861
-       angleX -1.332
-       angleY 58.192
-       angleZ 2.934
+       angles -1.332 58.192 2.934
       }
       Slot78 {
        components {
@@ -2061,9 +1564,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -0.62 14.811 17.995
-       angleX -0.891
-       angleY 49.841
-       angleZ 3.096
+       angles -0.891 49.841 3.096
       }
       Slot79 {
        components {
@@ -2073,9 +1574,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -0.669 14.819 18.227
-       angleX -0.891
-       angleY 49.841
-       angleZ 3.096
+       angles -0.891 49.841 3.096
       }
       Slot80 {
        components {
@@ -2085,9 +1584,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -0.716 14.827 18.394
-       angleX -0.891
-       angleY 49.841
-       angleZ 3.096
+       angles -0.891 49.841 3.096
       }
       Slot81 {
        components {
@@ -2097,9 +1594,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -0.348 14.793 17.843
-       angleX -0.891
-       angleY 49.841
-       angleZ 3.096
+       angles -0.891 49.841 3.096
       }
       Slot82 {
        components {
@@ -2109,9 +1604,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -0.381 14.801 18.052
-       angleX -0.891
-       angleY 49.841
-       angleZ 3.096
+       angles -0.891 49.841 3.096
       }
       Slot83 {
        components {
@@ -2121,9 +1614,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -0.42 14.808 18.223
-       angleX -0.891
-       angleY 49.841
-       angleZ 3.096
+       angles -0.891 49.841 3.096
       }
       Slot84 {
        components {
@@ -2133,9 +1624,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -0.498 14.819 18.468
-       angleX -0.891
-       angleY 49.841
-       angleZ 3.096
+       angles -0.891 49.841 3.096
       }
       Slot85 {
        components {
@@ -2145,9 +1634,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -10.306 14.942 13.173
-       angleX -1.48
-       angleY 50.073
-       angleZ 2.409
+       angles -1.48 50.073 2.409
       }
       Slot86 {
        components {
@@ -2157,9 +1644,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -10.261 14.943 13.622
-       angleX -1.48
-       angleY 50.073
-       angleZ 2.409
+       angles -1.48 50.073 2.409
       }
       Slot87 {
        components {
@@ -2169,9 +1654,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -10.014 14.938 13.096
-       angleX -87.579
-       angleY -45.671
-       angleZ 61.805
+       angles -87.579 -45.671 61.805
       }
       Slot88 {
        components {
@@ -2181,9 +1664,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -11.989 15 11.905
-       angleX 2.823
-       angleY -74.562
-       angleZ -0.153
+       angles 2.823 -74.562 -0.153
       }
       Slot89 {
        components {
@@ -2193,9 +1674,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -11.794 15.003 12.044
-       angleX 2.823
-       angleY -74.424
-       angleZ -0.146
+       angles 2.823 -74.424 -0.146
       }
       Slot90 {
        components {
@@ -2205,9 +1684,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -11.912 15.003 12.219
-       angleX 2.823
-       angleY -74.424
-       angleZ -0.146
+       angles 2.823 -74.424 -0.146
       }
       Slot91 {
        components {
@@ -2217,9 +1694,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -12 15.009 12.373
-       angleX 2.823
-       angleY -74.424
-       angleZ -0.146
+       angles 2.823 -74.424 -0.146
       }
       Slot92 {
        components {
@@ -2229,9 +1704,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -12.109 15.014 12.055
-       angleX 2.822
-       angleY -74.423
-       angleZ -0.147
+       angles 2.822 -74.423 -0.147
       }
       Slot93 {
        components {
@@ -2241,9 +1714,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -12.213 15.019 12.227
-       angleX 2.823
-       angleY -74.423
-       angleZ -0.147
+       angles 2.823 -74.423 -0.147
       }
       Slot94 {
        components {
@@ -2253,9 +1724,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -11.548 15.004 12.32
-       angleX -89.04
-       angleY -65.647
-       angleZ -8.771
+       angles -89.04 -65.647 -8.771
       }
       Slot95 {
        components {
@@ -2265,9 +1734,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -11.719 15.018 12.515
-       angleX -87.235
-       angleY -97.71
-       angleZ -14.646
+       angles -87.235 -97.71 -14.646
       }
       Slot98 {
        components {
@@ -2277,9 +1744,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 68.494 14.162 -4.136
-       angleX 0.674
-       angleY -165.322
-       angleZ -2.596
+       angles 0.674 -165.322 -2.596
       }
       Slot99 {
        components {
@@ -2289,9 +1754,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 72.374 13.944 -5.147
-       angleX 0.034
-       angleY -165.281
-       angleZ -3.686
+       angles 0.034 -165.281 -3.686
       }
       Slot100 {
        components {
@@ -2301,9 +1764,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 76.542 13.668 -6.167
-       angleX 0.034
-       angleY -165.281
-       angleZ -3.686
+       angles 0.034 -165.281 -3.686
       }
       Slot101 {
        components {
@@ -2313,9 +1774,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 80.88 13.279 -7.301
-       angleX 2.426
-       angleY -165.501
-       angleZ -5.842
+       angles 2.426 -165.501 -5.842
       }
       Slot102 {
        components {
@@ -2325,9 +1784,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 85.944 12.649 -8.674
-       angleX 3.718
-       angleY -165.715
-       angleZ -7.36
+       angles 3.718 -165.715 -7.36
       }
       Slot103 {
        components {
@@ -2337,9 +1794,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -9.316 14.194 14.559
-       angleX -63.501
-       angleY 154.724
-       angleZ -10.611
+       angles -63.501 154.724 -10.611
       }
       Slot104 {
        components {
@@ -2349,9 +1804,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -8.929 14.213 14.788
-       angleX -63.501
-       angleY 154.724
-       angleZ -10.611
+       angles -63.501 154.724 -10.611
       }
       Slot105 {
        components {
@@ -2361,9 +1814,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -8.576 14.191 15.09
-       angleX -63.501
-       angleY 154.724
-       angleZ -10.611
+       angles -63.501 154.724 -10.611
       }
       Slot106 {
        components {
@@ -2373,9 +1824,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -8.199 14.178 15.339
-       angleX -63.501
-       angleY 154.724
-       angleZ -10.611
+       angles -63.501 154.724 -10.611
       }
       Slot107 {
        components {
@@ -2385,9 +1834,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 89.857 12.063 -9.977
-       angleX 3.133
-       angleY -165.274
-       angleZ -8.417
+       angles 3.133 -165.274 -8.417
       }
       Slot108 {
        components {
@@ -2397,9 +1844,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 76.426 13.679 -0.954
-       angleX 4.349
-       angleY -76.389
-       angleZ 1.04
+       angles 4.349 -76.389 1.04
       }
       Slot109 {
        components {
@@ -2409,9 +1854,7 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 314.719 -6.122 -56.349
-       angleX -0.335
-       angleY 154.881
-       angleZ -2.808
+       angles -0.335 154.881 -2.808
       }
      }
     }
@@ -2421,72 +1864,56 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
 }
 GenericEntity : "{C870BE8FB91FE90B}Prefabs/Structures/Walls/Brick/BrickWall_02/dst/Brick_wall_02_4m_dst_02_dbr_02.et" {
  coords 1343.676 8.384 1856.543
- angleX -0.869
- angleY -166.23
- angleZ -0.213
+ angles -0.869 -166.23 -0.213
 }
 GenericEntity : "{D93EF3E97E06D435}Prefabs/Compositions/Misc/SubCompositions/BarrelClutter_04.et" {
  coords 1344.296 8.406 1832.547
- angleY 177.897
+ angles 0 177.897 0
  {
   GenericEntity {
    ID "552C7390253853C9"
    coords -0.369 0 0.139
-   angleY 9.353
+   angles 0 9.353 0
   }
   GenericEntity {
    ID "552C7390253853CA"
    coords 0.09 0.001 -0.09
-   angleX 0
-   angleY 17.844
-   angleZ 0
+   angles 0 17.844 0
   }
   GenericEntity {
    ID "552C7390253853F6"
    coords 0.482 0.004 0.764
-   angleX 0.893
-   angleY 6.179
-   angleZ 0.064
+   angles 0.893 6.179 0.064
   }
   GenericEntity {
    ID "552C7390253853CB"
    coords -0.22 0.001 0.607
-   angleX -0.168
-   angleY -98.7
-   angleZ -0.879
+   angles -0.168 -98.7 -0.879
   }
   GenericEntity {
    ID "552C7390253853C8"
    coords 0.293 0 0.26
-   angleY -48.72
+   angles 0 -48.72 0
   }
  }
 }
-$grp GenericEntity : "{EB084C400AABD1D3}Prefabs/Props/Wrecks/M151A2_wreck.et" {
+$grp GenericEntity : "{EB084C400AABD1D3}Prefabs/Props/Wrecks/M151A2_wreck/M151A2_wreck.et" {
  {
   coords 1354.762 8.069 1832.034
-  angleX -1.891
-  angleY -44.334
-  angleZ -0.655
+  angles -1.891 -44.334 -0.655
  }
  {
   coords 1326.129 8.402 1828.422
-  angleX -1.266
-  angleY -44.333
-  angleZ -0.015
+  angles -1.266 -44.333 -0.015
  }
 }
 SCR_DestructibleEntity : "{EEE23553967B32A8}Prefabs/Structures/Walls/Stone/StoneWall_01/StoneWall_01_8m.et" {
  coords 1329.118 0 1867.902
- angleX -0.853
- angleY 18.509
- angleZ 2.545
+ angles -0.853 18.509 2.545
 }
 SCR_DestructibleEntity : "{F55802C087BC218D}Prefabs/Structures/Walls/Metal/TinWall_01/TinWall_01_6m_A.et" {
  coords 998.449 0 1958.587
- angleX -0.716
- angleY 126.93
- angleZ -0.538
+ angles -0.716 126.93 -0.538
 }
 $grp GenericEntity : "{F8ECFB663EAEB862}Prefabs/Props/Fabric/Flags/Flag_1_2_TTT.et" {
  {
@@ -2499,26 +1926,22 @@ $grp GenericEntity : "{F8ECFB663EAEB862}Prefabs/Props/Fabric/Flags/Flag_1_2_TTT.
 $grp GenericEntity : "{FA7A86697340C58C}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_FIA_05.et" {
  {
   coords 1390.011 9.625 1875.226
-  angleY -77.771
+  angles 0 -77.771 0
  }
  {
   coords 1301.76 11.437 1889.398
-  angleY -164.575
+  angles 0 -164.575 0
  }
  {
   coords 1056.804 12.863 1948.817
-  angleX 0.873
-  angleY 165.894
-  angleZ 3.468
+  angles 0.873 165.894 3.468
  }
  {
   coords 1353.081 36.483 2365.969
-  angleX 0.527
-  angleY -36.056
-  angleZ 0.724
+  angles 0.527 -36.056 0.724
  }
  {
   coords 1388.069 9.625 1865.279
-  angleY -74.837
+  angles 0 -74.837 0
  }
 }

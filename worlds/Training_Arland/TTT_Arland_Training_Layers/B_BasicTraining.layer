@@ -1,55 +1,43 @@
 $grp SCR_DoorOpenerEntity {
  {
   coords 1434.68 36.276 2279.697
-  angleX 2.684
-  angleY 0.014
-  angleZ 0.001
+  angles 2.684 0.014 0.001
   m_fRadius 5
  }
  {
   coords 1340.536 37.207 2393.593
-  angleX 1.79
-  angleY 0.014
+  angles 1.79 0.014 0
   m_fRadius 1
  }
  {
   coords 1342.787 37.048 2390.543
-  angleX 2.684
-  angleY 0.014
-  angleZ 0.001
+  angles 2.684 0.014 0.001
   m_fRadius 1
  }
  {
   coords 1344.292 37.244 2388.449
-  angleX 0.895
-  angleY 0.014
-  angleZ 1.79
+  angles 0.895 0.014 1.79
   m_fRadius 1
  }
  {
   coords 1346.473 37.123 2385.475
-  angleX 1.79
-  angleY 0.014
+  angles 1.79 0.014 0
   m_fRadius 1
  }
  {
   coords 1348.073 37.163 2383.26
-  angleX 2.684
-  angleY 0.014
-  angleZ 0.001
+  angles 2.684 0.014 0.001
   m_fRadius 1
  }
  {
   coords 1350.264 37.161 2380.247
-  angleX 2.684
-  angleY 0.014
-  angleZ 0.001
+  angles 2.684 0.014 0.001
   m_fRadius 1
  }
 }
 GenericEntity : "{1F83CE19F6915A98}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/CrateStack_01_NoDecals.et" {
  coords 1327.712 37.045 2382.519
- angleY 144.879
+ angles 0 144.879 0
 }
 Vehicle M923A1_command_MERDC1 : "{38186F12F27A61C6}Prefabs/Vehicles/Wheeled/M923A1/M923A1_command_MERDC.et" {
  components {
@@ -73,39 +61,32 @@ Vehicle M923A1_command_MERDC1 : "{38186F12F27A61C6}Prefabs/Vehicles/Wheeled/M923
   }
  }
  coords 1363.343 36.418 2374.085
- angleX -0.142
- angleY 51.453
- angleZ 1.258
+ angles -0.142 51.453 1.258
 }
 GenericEntity : "{4BF528DF7A469909}Prefabs/Props/Construction/PalletJack_01.et" {
  coords 1335.859 37.03 2392.532
- angleX -0.724
- angleY 53.929
- angleZ 0.527
+ angles -0.724 53.929 0.527
 }
 $grp GenericEntity : "{7F59A8D992FBF5CA}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/CrateStack_01_base.et" {
  {
   coords 1338.015 37.045 2394.192
-  angleY -36.627
-  angleZ 0.001
+  angles 0 -36.627 0.001
  }
  {
   coords 1337.048 37.046 2393.51
-  angleY -36.627
-  angleZ 0.001
+  angles 0 -36.627 0.001
  }
  {
   coords 1336.172 37.045 2392.796
-  angleY -36.627
-  angleZ 0.001
+  angles 0 -36.627 0.001
  }
  {
   coords 1336.651 37.045 2396.246
-  angleY -123.923
+  angles 0 -123.923 0
  }
  {
   coords 1335.21 37.045 2395.198
-  angleY -123.923
+  angles 0 -123.923 0
  }
 }
 $grp LightEntity : "{8351F4F8AB128B7B}Prefabs/Structures/Infrastructure/Lamps/LampStreet_E_02/LightPrefabs/LampStreet_E_02_light.et" {
@@ -116,9 +97,7 @@ $grp LightEntity : "{8351F4F8AB128B7B}Prefabs/Structures/Infrastructure/Lamps/La
    }
   }
   coords 1334.265 42.651 2394.39
-  angleX -86.006
-  angleY 106.224
-  angleZ -50.327
+  angles -86.006 106.224 -50.327
   Color 0.823 0.773 0.711 0
   SpotAngle 170
  }
@@ -129,9 +108,7 @@ $grp LightEntity : "{8351F4F8AB128B7B}Prefabs/Structures/Infrastructure/Lamps/La
    }
   }
   coords 1338.222 42.652 2389.098
-  angleX -86.006
-  angleY 106.224
-  angleZ -50.327
+  angles -86.006 106.224 -50.327
   Color 0.823 0.773 0.711 0
   SpotAngle 170
  }
@@ -142,9 +119,7 @@ $grp LightEntity : "{8351F4F8AB128B7B}Prefabs/Structures/Infrastructure/Lamps/La
    }
   }
   coords 1342.063 42.675 2383.742
-  angleX -86.006
-  angleY 106.224
-  angleZ -50.327
+  angles -86.006 106.224 -50.327
   Color 0.823 0.773 0.711 0
   SpotAngle 170
  }
@@ -155,9 +130,7 @@ $grp LightEntity : "{8351F4F8AB128B7B}Prefabs/Structures/Infrastructure/Lamps/La
    }
   }
   coords 1345.948 42.662 2378.393
-  angleX -86.006
-  angleY 106.224
-  angleZ -50.327
+  angles -86.006 106.224 -50.327
   Color 0.823 0.773 0.711 0
   SpotAngle 170
  }
@@ -168,9 +141,7 @@ $grp LightEntity : "{8351F4F8AB128B7B}Prefabs/Structures/Infrastructure/Lamps/La
    }
   }
   coords 1335.044 42.183 2378.58
-  angleX -86.006
-  angleY 106.224
-  angleZ -50.327
+  angles -86.006 106.224 -50.327
   Color 0.823 0.773 0.711 0
   SpotAngle 170
  }
@@ -181,9 +152,7 @@ $grp LightEntity : "{8351F4F8AB128B7B}Prefabs/Structures/Infrastructure/Lamps/La
    }
   }
   coords 1331.284 42.184 2384.045
-  angleX -86.006
-  angleY 106.224
-  angleZ -50.327
+  angles -86.006 106.224 -50.327
   Color 0.823 0.773 0.711 0
   SpotAngle 170
  }
@@ -194,21 +163,19 @@ $grp LightEntity : "{8351F4F8AB128B7B}Prefabs/Structures/Infrastructure/Lamps/La
    }
   }
   coords 1327.357 42.183 2389.344
-  angleX -86.006
-  angleY 106.224
-  angleZ -50.327
+  angles -86.006 106.224 -50.327
   Color 0.823 0.773 0.711 0
   SpotAngle 170
  }
 }
 GenericEntity : "{8F35DC2FEF9F05C8}Prefabs/BriefingRoom/quadrobranco1_TTT.et" {
  coords 1350.637 40.075 2377.522
- angleY 54.421
+ angles 0 54.421 0
  scale 3
 }
 GenericEntity : "{B4FFD63EDFCBD850}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_02.et" {
  coords 1343.732 37.045 2376.368
- angleY 55.473
+ angles 0 55.473 0
 }
 GenericEntity : "{B86DFA1CF9409674}Prefabs/Structures/Military/Flags/FlagPole_02/FlagPole_TTT.et" {
  coords 1406.115 36.156 2323.133
@@ -220,7 +187,7 @@ GenericEntity : "{C16089BDC96F0542}Prefabs/Props/Military/Furniture/NoticeBoardM
   }
  }
  coords 1325.354 38.502 2384.705
- angleY 54.832
+ angles 0 54.832 0
  {
   GenericEntity {
    ID "56D6D2C019DB3F43"
@@ -232,1044 +199,17 @@ GenericEntity : "{C16089BDC96F0542}Prefabs/Props/Military/Furniture/NoticeBoardM
   }
  }
 }
-GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/Components/Area.et" {
+GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFramework/Components/Area.et" {
  components {
   SCR_ScenarioFrameworkArea "{59E8CDC50969206E}" {
-   m_iDynamicDespawnRange 400
    m_bShowDebugShapesInWorkbench 1
+   m_iDynamicDespawnRange 400
   }
  }
  coords 1380.661 36.136 2396.344
- angleZ 1.79
+ angles 0 0 1.79
  {
-  GenericEntity BasicWeaponLayer : "{5AF3BFDA2EAE56EA}Prefabs/ScenarioFramework/Components/LayerTask.et" {
-   coords 0 0 0
-   {
-    $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
-     Slot16 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{0B49B43A41505E92}Prefabs/Structures/Military/CamoNets/US/CamoNet_Folded_US.et"
-        m_bShowDebugShapesInWorkbench 0
-       }
-      }
-      coords -39.386 -0.327 -19.059
-      angleZ -1.79
-     }
-     Slot17 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{34D385CE8A17BD61}Prefabs/Structures/Military/CamoNets/US/CamoNet_AssemblyKit_US.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -38.006 -0.262 -18.166
-      angleZ -1.79
-     }
-     Slot18 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMilitary_USSR_01.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -44.666 -0.487 -11.61
-      angleX 1.431
-      angleY 53.08
-      angleZ -1.075
-     }
-     Slot20 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMilitary_USSR_01.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -45.968 -0.527 -9.871
-      angleX 1.431
-      angleY 53.067
-      angleZ -1.076
-     }
-     Slot21 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMilitary_USSR_01.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -47.162 -0.565 -8.247
-      angleX 1.431
-      angleY 53.067
-      angleZ -1.076
-     }
-     Slot22 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{785F322AC3DFD4B9}Prefabs/Compositions/Misc/SubCompositions/Furniture/Chair_Light_US_01.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -45.232 -0.504 -10.691
-      angleX -1.076
-      angleY -36.945
-      angleZ -1.431
-     }
-     Slot23 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{785F322AC3DFD4B9}Prefabs/Compositions/Misc/SubCompositions/Furniture/Chair_Light_US_01.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -46.588 -0.547 -9.02
-      angleX -1.076
-      angleY -36.932
-      angleZ -1.431
-     }
-     Slot24 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{6796EA08CB53CAEB}Prefabs/MP/Campaign/RequestTable_US.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -48.865 -0.618 -15.517
-      angleX -1.431
-      angleY -126.93
-      angleZ 1.075
-     }
-     Slot25 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{7B2D1744E9F2A3B3}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Ashtray_US_01.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -51.588 -0.703 -11.932
-      angleX 1.446
-      angleY 53.853
-      angleZ -1.056
-     }
-     Slot26 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{F2174A927C3229F2}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Desk_US_05.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -50.244 -0.689 -13.68
-      angleX 2.653
-      angleY 51.133
-      angleZ -1.623
-     }
-     Slot19 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{B385064A383A384B}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14Dual_WP.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -44.588 0.476 -11.347
-      angleZ -1.79
-     }
-     Slot29 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{5B219B96EDC39786}Prefabs/Items/Equipment/Nightvision/PVS31/NVG_PVS31_WP_BLK_MC.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -44.801 0.458 -11.098
-      angleZ -3.58
-     }
-     Slot30 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{3D91801A97D4061E}Prefabs/Items/Equipment/Nightvision/PVS31/PVS_31_BatPack_BLK_MC.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -44.11 0.43 -11.876
-      angleX 87.557
-      angleY -47.085
-      angleZ -47.111
-     }
-     Slot31 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{41EF32019B19EB8D}Prefabs/Items/Equipment/Nightvision/PVS31/PVS_31_BatPack_TAN_MC.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -44.195 0.429 -11.749
-      angleX 86.256
-      angleY -72.939
-      angleZ -72.974
-     }
-     Slot32 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{5F7EF7FEBC39B874}Prefabs/Items/Equipment/Nightvision/HelstarStrobe/Helstar.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -44.327 0.427 -11.566
-      angleX 83.216
-      angleY -148.268
-      angleZ -148.088
-     }
-     Slot33 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{3D91801A97D4061E}Prefabs/Items/Equipment/Nightvision/PVS31/PVS_31_BatPack_BLK_MC.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -44.257 0.424 -11.979
-      angleX 87.557
-      angleY -47.085
-      angleZ -47.111
-     }
-     Slot34 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{41EF32019B19EB8D}Prefabs/Items/Equipment/Nightvision/PVS31/PVS_31_BatPack_TAN_MC.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -44.34 0.422 -11.85
-      angleX 86.256
-      angleY -72.939
-      angleZ -72.974
-     }
-     Slot35 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{5F7EF7FEBC39B874}Prefabs/Items/Equipment/Nightvision/HelstarStrobe/Helstar.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -44.473 0.421 -11.668
-      angleX 83.216
-      angleY -148.268
-      angleZ -148.088
-     }
-     Slot36 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{3D91801A97D4061E}Prefabs/Items/Equipment/Nightvision/PVS31/PVS_31_BatPack_BLK_MC.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -44.406 0.425 -12.081
-      angleX 87.557
-      angleY -47.085
-      angleZ -47.111
-     }
-     Slot37 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{41EF32019B19EB8D}Prefabs/Items/Equipment/Nightvision/PVS31/PVS_31_BatPack_TAN_MC.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -44.49 0.424 -11.954
-      angleX 86.256
-      angleY -72.939
-      angleZ -72.974
-     }
-     Slot38 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{5F7EF7FEBC39B874}Prefabs/Items/Equipment/Nightvision/HelstarStrobe/Helstar.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -44.622 0.413 -11.77
-      angleX 83.216
-      angleY -148.268
-      angleZ -148.088
-     }
-     Slot39 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{3D91801A97D4061E}Prefabs/Items/Equipment/Nightvision/PVS31/PVS_31_BatPack_BLK_MC.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -44.56 0.417 -12.2
-      angleX 87.557
-      angleY -47.085
-      angleZ -47.111
-     }
-     Slot40 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{41EF32019B19EB8D}Prefabs/Items/Equipment/Nightvision/PVS31/PVS_31_BatPack_TAN_MC.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -44.644 0.416 -12.074
-      angleX 86.256
-      angleY -72.939
-      angleZ -72.974
-     }
-     Slot41 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{5F7EF7FEBC39B874}Prefabs/Items/Equipment/Nightvision/HelstarStrobe/Helstar.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -44.776 0.413 -11.892
-      angleX 83.216
-      angleY -148.268
-      angleZ -148.088
-     }
-     Slot42 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{D61490732EE2F0E5}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_medium_green.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -44.995 0.402 -11.648
-      angleZ -1.79
-     }
-     Slot43 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{5B219B96EDC39786}Prefabs/Items/Equipment/Nightvision/PVS31/NVG_PVS31_WP_BLK_MC.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -44.833 0.449 -11.492
-      angleZ -5.37
-     }
-     Slot44 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{D61490732EE2F0E5}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_medium_green.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -45.187 0.396 -11.316
-      angleX -0.038
-      angleY -1.22
-      angleZ -1.789
-     }
-     Slot45 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{3BB52CEF1659F3C0}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_camo1_su231A.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -45.898 0.388 -9.917
-      angleX -0.045
-      angleY -1.431
-      angleZ -88.989
-     }
-     Slot46 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{EA69842DEA2391A6}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_BLOCK_II_SU230.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -47.134 0.359 -8.321
-      angleX -0.045
-      angleY -1.431
-      angleZ -88.989
-     }
-     Slot47 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{4A93B3F0B33FF104}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_MC.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -43.51 -0.374 -12.625
-      angleX -39.416
-      angleY 99.295
-      angleZ 0.384
-     }
-     Slot48 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{C5E7592C94DC6D4C}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_MC.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -43.831 -0.343 -12.066
-      angleX -47.537
-      angleY 28.024
-      angleZ -2.378
-     }
-     Slot49 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{95D4766BBE46F23D}Prefabs/Items/Equipment/Backpacks/Backpack_IIFS_FieldPack.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -43.611 -0.296 -12.328
-      angleX -29.629
-      angleY 56.824
-      angleZ -1.144
-     }
-     Slot50 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{95D4766BBE46F23D}Prefabs/Items/Equipment/Backpacks/Backpack_IIFS_FieldPack.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -47.575 -0.405 -6.851
-      angleX -29.629
-      angleY 56.824
-      angleZ -1.144
-     }
-     Slot51 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{4A93B3F0B33FF104}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_MC.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -47.473 -0.483 -7.148
-      angleX -39.416
-      angleY 99.295
-      angleZ 0.384
-     }
-     Slot52 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{C5E7592C94DC6D4C}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_MC.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -47.794 -0.452 -6.589
-      angleX -47.537
-      angleY 28.024
-      angleZ -2.378
-     }
-     Slot114 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{C5E7592C94DC6D4C}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_MC.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -51.836 -0.018 -1.9
-      angleX -5.59
-      angleY 144.169
-      angleZ 1.047
-     }
-     Slot115 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{C5E7592C94DC6D4C}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_MC.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -51.498 -0.012 -1.656
-      angleX -5.59
-      angleY 144.169
-      angleZ 1.047
-     }
-     Slot140 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{C5E7592C94DC6D4C}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_MC.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -51.159 -0.009 -1.419
-      angleX -5.59
-      angleY 144.169
-      angleZ 1.047
-     }
-     Slot141 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{C5E7592C94DC6D4C}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_MC.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -50.843 0.014 -1.227
-      angleX -5.59
-      angleY 144.169
-      angleZ 1.047
-     }
-     Slot142 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{C5E7592C94DC6D4C}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_MC.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -53.41 -0.075 -3.042
-      angleX -5.59
-      angleY 144.169
-      angleZ 1.047
-     }
-     Slot143 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{C5E7592C94DC6D4C}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_MC.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -53.085 -0.105 -2.786
-      angleX -5.59
-      angleY 144.169
-      angleZ 1.047
-     }
-     Slot144 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{C5E7592C94DC6D4C}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_MC.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -52.771 -0.086 -2.559
-      angleX -5.59
-      angleY 144.169
-      angleZ 1.047
-     }
-     Slot145 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{C5E7592C94DC6D4C}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_MC.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -52.451 -0.081 -2.326
-      angleX -5.59
-      angleY 144.169
-      angleZ 1.047
-     }
-     Slot146 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{C5E7592C94DC6D4C}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_MC.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -50.483 -0.022 -0.9
-      angleX -5.59
-      angleY 144.169
-      angleZ 1.047
-     }
-     Slot147 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{C5E7592C94DC6D4C}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_MC.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -50.165 -0.035 -0.636
-      angleX -5.59
-      angleY 144.169
-      angleZ 1.047
-     }
-     Slot148 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{C5E7592C94DC6D4C}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_MC.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -49.81 -0.021 -0.376
-      angleX -5.59
-      angleY 144.169
-      angleZ 1.047
-     }
-     Slot149 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMilitary_USSR_01.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -47.395 -0.572 -0.795
-      angleX 1.431
-      angleY 53.054
-      angleZ -1.076
-     }
-     Slot150 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMilitary_USSR_01.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -45.957 -0.527 -2.655
-      angleX 1.431
-      angleY 53.054
-      angleZ -1.076
-     }
-     Slot151 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMilitary_USSR_01.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -54.294 -0.787 -5.769
-      angleX 1.431
-      angleY 53.054
-      angleZ -1.076
-     }
-     Slot152 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMilitary_USSR_01.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -53.187 -0.753 -7.342
-      angleX 1.431
-      angleY 53.054
-      angleZ -1.076
-     }
-     Slot153 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{01BE30D243F57EE2}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230_MRDS_tan.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -47.899 0.312 -0.517
-      angleX 1.431
-      angleY 53.054
-      angleZ -1.076
-     }
-     Slot154 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{01BE30D243F57EE2}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230_MRDS_tan.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -47.699 0.318 -0.352
-      angleX 1.431
-      angleY 53.054
-      angleZ -1.076
-     }
-     Slot155 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{01BE30D243F57EE2}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230_MRDS_tan.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -47.737 0.317 -0.682
-      angleX 1.431
-      angleY 53.054
-      angleZ -1.076
-     }
-     Slot156 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{01BE30D243F57EE2}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230_MRDS_tan.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -47.537 0.323 -0.516
-      angleX 1.431
-      angleY 53.054
-      angleZ -1.076
-     }
-     Slot157 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{01BE30D243F57EE2}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230_MRDS_tan.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -47.611 0.321 -0.838
-      angleX 1.431
-      angleY 53.054
-      angleZ -1.076
-     }
-     Slot158 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{01BE30D243F57EE2}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230_MRDS_tan.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -47.41 0.327 -0.672
-      angleX 1.431
-      angleY 53.054
-      angleZ -1.076
-     }
-     Slot159 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{01BE30D243F57EE2}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230_MRDS_tan.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -47.516 0.324 -1.007
-      angleX 1.431
-      angleY 53.054
-      angleZ -1.076
-     }
-     Slot160 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{01BE30D243F57EE2}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230_MRDS_tan.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -47.316 0.33 -0.842
-      angleX 1.431
-      angleY 53.054
-      angleZ -1.076
-     }
-     Slot161 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{01BE30D243F57EE2}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230_MRDS_tan.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -47.389 0.328 -1.172
-      angleX 1.431
-      angleY 53.054
-      angleZ -1.076
-     }
-     Slot162 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{01BE30D243F57EE2}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230_MRDS_tan.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -47.188 0.334 -1.008
-      angleX 1.431
-      angleY 53.054
-      angleZ -1.076
-     }
-     Slot163 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{01BE30D243F57EE2}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230_MRDS_tan.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -47.266 0.332 -1.343
-      angleX 1.431
-      angleY 53.054
-      angleZ -1.076
-     }
-     Slot164 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{01BE30D243F57EE2}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230_MRDS_tan.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -47.066 0.338 -1.177
-      angleX 1.431
-      angleY 53.054
-      angleZ -1.076
-     }
-     Slot165 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{9A185BC14F1166B4}Prefabs/Weapons/Attachments/Lasers/anpeq15/Laser_ANPEQ15_tan.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -46.231 0.364 -2.149
-      angleX 1.431
-      angleY 53.04
-      angleZ -1.076
-     }
-     Slot166 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{9A185BC14F1166B4}Prefabs/Weapons/Attachments/Lasers/anpeq15/Laser_ANPEQ15_tan.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -46.43 0.358 -2.316
-      angleX 1.431
-      angleY 53.04
-      angleZ -1.076
-     }
-     Slot167 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{9A185BC14F1166B4}Prefabs/Weapons/Attachments/Lasers/anpeq15/Laser_ANPEQ15_tan.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -46.11 0.368 -2.36
-      angleX 1.431
-      angleY 53.04
-      angleZ -1.076
-     }
-     Slot168 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{9A185BC14F1166B4}Prefabs/Weapons/Attachments/Lasers/anpeq15/Laser_ANPEQ15_tan.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -46.309 0.362 -2.527
-      angleX 1.431
-      angleY 53.04
-      angleZ -1.076
-     }
-     Slot169 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{9A185BC14F1166B4}Prefabs/Weapons/Attachments/Lasers/anpeq15/Laser_ANPEQ15_tan.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -45.971 0.372 -2.507
-      angleX 1.431
-      angleY 53.04
-      angleZ -1.076
-     }
-     Slot170 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{9A185BC14F1166B4}Prefabs/Weapons/Attachments/Lasers/anpeq15/Laser_ANPEQ15_tan.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -46.17 0.366 -2.674
-      angleX 1.431
-      angleY 53.04
-      angleZ -1.076
-     }
-     Slot171 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{9A185BC14F1166B4}Prefabs/Weapons/Attachments/Lasers/anpeq15/Laser_ANPEQ15_tan.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -45.845 0.376 -2.693
-      angleX 1.431
-      angleY 53.041
-      angleZ -1.076
-     }
-     Slot172 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{9A185BC14F1166B4}Prefabs/Weapons/Attachments/Lasers/anpeq15/Laser_ANPEQ15_tan.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -46.044 0.37 -2.86
-      angleX 1.431
-      angleY 53.041
-      angleZ -1.076
-     }
-     Slot173 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{9A185BC14F1166B4}Prefabs/Weapons/Attachments/Lasers/anpeq15/Laser_ANPEQ15_tan.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -45.643 0.382 -2.909
-      angleX 1.431
-      angleY 53.04
-      angleZ -1.076
-     }
-     Slot174 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{9A185BC14F1166B4}Prefabs/Weapons/Attachments/Lasers/anpeq15/Laser_ANPEQ15_tan.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -45.842 0.376 -3.076
-      angleX 1.431
-      angleY 53.04
-      angleZ -1.076
-     }
-     Slot175 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{612DB63E3F817C92}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_camo1.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -54.037 0.135 -6.127
-      angleX -2.444
-      angleY -128.016
-      angleZ -87.26
-     }
-     Slot176 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{14BAB2D9F6F782D8}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_BLOCK_II.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -52.921 0.17 -7.726
-      angleX -2.836
-      angleY -127.639
-      angleZ -88.231
-     }
-     Slot177 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{14BAB2D9F6F782D8}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_BLOCK_II.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -53.087 0.159 -7.492
-      angleX -2.836
-      angleY -127.639
-      angleZ -88.231
-     }
-     Slot178 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{14BAB2D9F6F782D8}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_BLOCK_II.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -53.258 0.166 -7.251
-      angleX -2.836
-      angleY -127.639
-      angleZ -88.231
-     }
-     Slot179 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{14BAB2D9F6F782D8}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_BLOCK_II.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -53.454 0.157 -7.007
-      angleX -2.836
-      angleY -127.639
-      angleZ -88.231
-     }
-     Slot180 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{612DB63E3F817C92}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_camo1.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -54.232 0.131 -5.87
-      angleX -2.444
-      angleY -128.016
-      angleZ -87.26
-     }
-     Slot181 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{612DB63E3F817C92}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_camo1.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -54.39 0.139 -5.613
-      angleX -2.444
-      angleY -128.016
-      angleZ -87.26
-     }
-     Slot182 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{612DB63E3F817C92}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_camo1.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -54.621 0.124 -5.312
-      angleX -2.444
-      angleY -128.016
-      angleZ -87.26
-     }
-     Slot183 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{612DB63E3F817C92}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_camo1.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -53.65 -0.408 -5.624
-      angleX 67.694
-      angleY -121.207
-      angleZ -82.772
-     }
-     Slot184 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{612DB63E3F817C92}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_camo1.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -53.869 -0.415 -5.363
-      angleX 67.694
-      angleY -121.207
-      angleZ -82.772
-     }
-     Slot185 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{612DB63E3F817C92}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_camo1.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -54.076 -0.421 -5.082
-      angleX 67.694
-      angleY -121.207
-      angleZ -82.772
-     }
-     Slot186 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{14BAB2D9F6F782D8}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_BLOCK_II.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -53.016 -0.409 -6.544
-      angleX 68.685
-      angleY -123.017
-      angleZ -85.134
-     }
-     Slot187 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{14BAB2D9F6F782D8}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_BLOCK_II.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -52.786 -0.421 -6.907
-      angleX 68.685
-      angleY -123.017
-      angleZ -85.134
-     }
-     Slot188 {
-      components {
-       SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-        m_sObjectToSpawn "{14BAB2D9F6F782D8}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_BLOCK_II.et"
-        m_bCanBeGarbageCollected 0
-       }
-      }
-      coords -52.594 -0.428 -7.204
-      angleX 68.685
-      angleY -123.017
-      angleZ -85.134
-     }
-    }
-   }
-  }
-  $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/ScenarioFramework/Components/Layer.et" {
+  $grp GenericEntity : "{5F9FFF4BF027B3A3}Prefabs/Systems/ScenarioFramework/Components/Layer.et" {
    SpawnLayer {
     components {
      SCR_ScenarioFrameworkLayerBase "{5A2283EA2A0B4B14}" {
@@ -1278,7 +218,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
     }
     coords 0 0 0
     {
-     $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+     $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
       Slot1 {
        components {
         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
@@ -1287,9 +227,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -20.272 0.426 1.9
-       angleX -0.34
-       angleY 142.699
-       angleZ 2.508
+       angles -0.34 142.699 2.508
       }
       Slot2 {
        components {
@@ -1298,9 +236,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 11.544 0.395 -51.245
-       angleX -0.918
-       angleY -178.49
-       angleZ 0.871
+       angles -0.918 -178.49 0.871
       }
       Slot4 {
        components {
@@ -1309,23 +245,19 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 31.623 0.578 -45.045
-       angleX -0.873
-       angleY -91.402
-       angleZ 0.917
+       angles -0.873 -91.402 0.917
       }
       Slot5 {
        components {
         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-         m_sObjectToSpawn "{6B24D5AFD884D64C}Prefabs/Vehicles/Wheeled/M998/M998_MERDC.et"
+         m_sObjectToSpawn "{6B24D5AFD884D64C}Prefabs/Vehicles/Wheeled/M998/M998_uncovered_MERDC.et"
         }
        }
        coords 31.191 0.676 -49.902
-       angleX -1.768
-       angleY -91.389
-       angleZ 0.938
+       angles -1.768 -91.389 0.938
       }
      }
-     $grp GenericEntity : "{E537867C6E760514}Prefabs/ScenarioFramework/Components/SlotMarker.et" {
+     $grp GenericEntity : "{E537867C6E760514}Prefabs/Systems/ScenarioFramework/Components/SlotMarker.et" {
       SlotMarker1 {
        components {
         SCR_ScenarioFrameworkSlotMarker "{5EA2BD9901E5E82E}" {
@@ -1336,9 +268,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -9.285 0.329 -8.441
-       angleX 2.683
-       angleY -0.042
-       angleZ -0.896
+       angles 2.683 -0.042 -0.896
       }
       SlotMarker2 {
        components {
@@ -1350,7 +280,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -42.888 1.525 -155.423
-       angleZ -1.79
+       angles 0 0 -1.79
       }
       SlotMarker3 {
        components {
@@ -1362,9 +292,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -24.014 -28.195 -528.786
-       angleX 1.789
-       angleY -0.056
-       angleZ -1.791
+       angles 1.789 -0.056 -1.791
       }
       SlotMarker4 {
        components {
@@ -1376,9 +304,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -347.936 -34.652 -443.613
-       angleX 2.673
-       angleY -0.209
-       angleZ -4.479
+       angles 2.673 -0.209 -4.479
       }
      }
     }
@@ -1386,429 +312,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
    MedicTrainingLayer {
     coords 0 0 0
     {
-     $grp GenericEntity : "{8D43830F02C3F114}Prefabs/ScenarioFramework/Components/SlotAI.et" {
-      Hurt1 {
-       components {
-        SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
-         m_aActivationActions {
-          SCR_ScenarioFrameworkActionMedical "{6298F61C2AB72D06}" {
-           m_Getter SCR_ScenarioFrameworkGetSpawnedEntity "{6298F61DD844B905}" {
-            m_sLayerName "Hurt1"
-           }
-           m_aMedicalActions {
-            SCR_ScenarioFrameworkMedicalActionSetBleedingRate "{6298F61DD3A7C78F}" {
-             m_fBleedingRate 0.01
-            }
-            SCR_ScenarioFrameworkMedicalActionSetBlood "{6298F61DCB7AB7BD}" {
-             m_fBloodValue 1500
-            }
-            SCR_ScenarioFrameworkMedicalActionAddParticularBleeding "{6298F61DC216EB5B}" {
-             m_sHitZoneName "Head"
-            }
-            SCR_ScenarioFrameworkMedicalActionAddParticularBleeding "{6298F61DE9D933DB}" {
-             m_sHitZoneName "LArm"
-            }
-            SCR_ScenarioFrameworkMedicalActionAddParticularBleeding "{6298F61DEB6954FE}" {
-             m_sHitZoneName "RCalf"
-            }
-           }
-          }
-         }
-         m_sObjectToSpawn "{4A54ED5987EC5AF7}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Unarmed_Hurt.et"
-        }
-       }
-       coords 18.296 1.085 -6.483
-       angleX 0.779
-       angleY -9.359
-       angleZ -2.092
-      }
-      Hurt2 {
-       components {
-        SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
-         m_aActivationActions {
-          SCR_ScenarioFrameworkActionMedical "{6298F61C2AB72D06}" {
-           m_Getter SCR_ScenarioFrameworkGetSpawnedEntity "{6298F61DD844B905}" {
-            m_sLayerName "Hurt2"
-           }
-           m_aMedicalActions {
-            SCR_ScenarioFrameworkMedicalActionSetBleedingRate "{6298F61DD3A7C78F}" {
-             m_fBleedingRate 0.01
-            }
-            SCR_ScenarioFrameworkMedicalActionSetBlood "{6298F61DCB7AB7BD}" {
-             m_fBloodValue 1500
-            }
-            SCR_ScenarioFrameworkMedicalActionAddParticularBleeding "{6298F61DC216EB5B}" {
-             m_sHitZoneName "Head"
-            }
-            SCR_ScenarioFrameworkMedicalActionAddParticularBleeding "{6298F61DE9D933DB}" {
-             m_sHitZoneName "LArm"
-            }
-            SCR_ScenarioFrameworkMedicalActionAddParticularBleeding "{6298F61DEB6954FE}" {
-             m_sHitZoneName "RCalf"
-            }
-           }
-          }
-         }
-         m_sObjectToSpawn "{4A54ED5987EC5AF7}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Unarmed_Hurt.et"
-        }
-       }
-       coords 20.581 1.114 -6.152
-       angleX 1.657
-       angleY -9.366
-       angleZ 0.593
-      }
-      Hurt3 {
-       components {
-        SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
-         m_aActivationActions {
-          SCR_ScenarioFrameworkActionMedical "{6298F61C2AB72D06}" {
-           m_Getter SCR_ScenarioFrameworkGetSpawnedEntity "{6298F61DD844B905}" {
-            m_sLayerName "Hurt3"
-           }
-           m_aMedicalActions {
-            SCR_ScenarioFrameworkMedicalActionSetBleedingRate "{6298F61DD3A7C78F}" {
-             m_fBleedingRate 0.01
-            }
-            SCR_ScenarioFrameworkMedicalActionSetBlood "{6298F61DCB7AB7BD}" {
-             m_fBloodValue 1500
-            }
-            SCR_ScenarioFrameworkMedicalActionAddParticularBleeding "{6298F61DC216EB5B}" {
-             m_sHitZoneName "Head"
-            }
-            SCR_ScenarioFrameworkMedicalActionAddParticularBleeding "{6298F61DE9D933DB}" {
-             m_sHitZoneName "LArm"
-            }
-            SCR_ScenarioFrameworkMedicalActionAddParticularBleeding "{6298F61DEB6954FE}" {
-             m_sHitZoneName "RCalf"
-            }
-           }
-          }
-         }
-         m_sObjectToSpawn "{4A54ED5987EC5AF7}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Unarmed_Hurt.et"
-        }
-       }
-       coords 23.069 1.152 -5.594
-       angleX 0.777
-       angleY -9.389
-       angleZ -2.093
-      }
-      Hurt4 {
-       components {
-        SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
-         m_aActivationActions {
-          SCR_ScenarioFrameworkActionMedical "{6298F61C2AB72D06}" {
-           m_Getter SCR_ScenarioFrameworkGetSpawnedEntity "{6298F61DD844B905}" {
-            m_sLayerName "Hurt4"
-           }
-           m_aMedicalActions {
-            SCR_ScenarioFrameworkMedicalActionSetBleedingRate "{6298F61DD3A7C78F}" {
-             m_fBleedingRate 0.01
-            }
-            SCR_ScenarioFrameworkMedicalActionSetBlood "{6298F61DCB7AB7BD}" {
-             m_fBloodValue 1500
-            }
-            SCR_ScenarioFrameworkMedicalActionAddParticularBleeding "{6298F61DC216EB5B}" {
-             m_sHitZoneName "Head"
-            }
-            SCR_ScenarioFrameworkMedicalActionAddParticularBleeding "{6298F61DE9D933DB}" {
-             m_sHitZoneName "LArm"
-            }
-            SCR_ScenarioFrameworkMedicalActionAddParticularBleeding "{6298F61DEB6954FE}" {
-             m_sHitZoneName "RCalf"
-            }
-           }
-          }
-         }
-         m_sObjectToSpawn "{4A54ED5987EC5AF7}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Unarmed_Hurt.et"
-        }
-       }
-       coords 25.459 1.186 -5.08
-       angleX 0.767
-       angleY -9.675
-       angleZ -2.096
-      }
-      Hurt5 {
-       components {
-        SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
-         m_aActivationActions {
-          SCR_ScenarioFrameworkActionMedical "{6298F61C2AB72D06}" {
-           m_Getter SCR_ScenarioFrameworkGetSpawnedEntity "{6298F61DD844B905}" {
-            m_sLayerName "Hurt5"
-           }
-           m_aMedicalActions {
-            SCR_ScenarioFrameworkMedicalActionSetBleedingRate "{6298F61DD3A7C78F}" {
-             m_fBleedingRate 0.01
-            }
-            SCR_ScenarioFrameworkMedicalActionSetBlood "{6298F61DCB7AB7BD}" {
-             m_fBloodValue 1500
-            }
-            SCR_ScenarioFrameworkMedicalActionAddParticularBleeding "{6298F61DC216EB5B}" {
-             m_sHitZoneName "Head"
-            }
-            SCR_ScenarioFrameworkMedicalActionAddParticularBleeding "{6298F61DE9D933DB}" {
-             m_sHitZoneName "LArm"
-            }
-            SCR_ScenarioFrameworkMedicalActionAddParticularBleeding "{6298F61DEB6954FE}" {
-             m_sHitZoneName "RCalf"
-            }
-           }
-          }
-         }
-         m_sObjectToSpawn "{4A54ED5987EC5AF7}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Unarmed_Hurt.et"
-        }
-       }
-       coords 26.504 1.298 -12.498
-       angleX 0.414
-       angleY -9.691
-       angleZ -1.659
-      }
-      Hurt6 {
-       components {
-        SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
-         m_aActivationActions {
-          SCR_ScenarioFrameworkActionMedical "{6298F61C2AB72D06}" {
-           m_Getter SCR_ScenarioFrameworkGetSpawnedEntity "{6298F61DD844B905}" {
-            m_sLayerName "Hurt6"
-           }
-           m_aMedicalActions {
-            SCR_ScenarioFrameworkMedicalActionSetBleedingRate "{6298F61DD3A7C78F}" {
-             m_fBleedingRate 0.01
-            }
-            SCR_ScenarioFrameworkMedicalActionSetBlood "{6298F61DCB7AB7BD}" {
-             m_fBloodValue 1500
-            }
-            SCR_ScenarioFrameworkMedicalActionAddParticularBleeding "{6298F61DC216EB5B}" {
-             m_sHitZoneName "Head"
-            }
-            SCR_ScenarioFrameworkMedicalActionAddParticularBleeding "{6298F61DE9D933DB}" {
-             m_sHitZoneName "LArm"
-            }
-            SCR_ScenarioFrameworkMedicalActionAddParticularBleeding "{6298F61DEB6954FE}" {
-             m_sHitZoneName "RCalf"
-            }
-           }
-          }
-         }
-         m_sObjectToSpawn "{4A54ED5987EC5AF7}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Unarmed_Hurt.et"
-        }
-       }
-       coords 19.338 1.254 -13.899
-       angleX 0.423
-       angleY -9.376
-       angleZ -1.656
-      }
-      Hurt7 {
-       components {
-        SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
-         m_aActivationActions {
-          SCR_ScenarioFrameworkActionMedical "{6298F61C2AB72D06}" {
-           m_Getter SCR_ScenarioFrameworkGetSpawnedEntity "{6298F61DD844B905}" {
-            m_sLayerName "Hurt7"
-           }
-           m_aMedicalActions {
-            SCR_ScenarioFrameworkMedicalActionSetBleedingRate "{6298F61DD3A7C78F}" {
-             m_fBleedingRate 0.01
-            }
-            SCR_ScenarioFrameworkMedicalActionSetBlood "{6298F61DCB7AB7BD}" {
-             m_fBloodValue 1500
-            }
-            SCR_ScenarioFrameworkMedicalActionAddParticularBleeding "{6298F61DC216EB5B}" {
-             m_sHitZoneName "Head"
-            }
-            SCR_ScenarioFrameworkMedicalActionAddParticularBleeding "{6298F61DE9D933DB}" {
-             m_sHitZoneName "LArm"
-            }
-            SCR_ScenarioFrameworkMedicalActionAddParticularBleeding "{6298F61DEB6954FE}" {
-             m_sHitZoneName "RCalf"
-            }
-           }
-          }
-         }
-         m_sObjectToSpawn "{4A54ED5987EC5AF7}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Unarmed_Hurt.et"
-        }
-       }
-       coords 21.625 1.269 -13.569
-       angleX 1.305
-       angleY -9.531
-       angleZ 1.025
-      }
-      Hurt8 {
-       components {
-        SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
-         m_aActivationActions {
-          SCR_ScenarioFrameworkActionMedical "{6298F61C2AB72D06}" {
-           m_Getter SCR_ScenarioFrameworkGetSpawnedEntity "{6298F61DD844B905}" {
-            m_sLayerName "Hurt8"
-           }
-           m_aMedicalActions {
-            SCR_ScenarioFrameworkMedicalActionSetBleedingRate "{6298F61DD3A7C78F}" {
-             m_fBleedingRate 0.01
-            }
-            SCR_ScenarioFrameworkMedicalActionSetBlood "{6298F61DCB7AB7BD}" {
-             m_fBloodValue 1500
-            }
-            SCR_ScenarioFrameworkMedicalActionAddParticularBleeding "{6298F61DC216EB5B}" {
-             m_sHitZoneName "Head"
-            }
-            SCR_ScenarioFrameworkMedicalActionAddParticularBleeding "{6298F61DE9D933DB}" {
-             m_sHitZoneName "LArm"
-            }
-            SCR_ScenarioFrameworkMedicalActionAddParticularBleeding "{6298F61DEB6954FE}" {
-             m_sHitZoneName "RCalf"
-            }
-           }
-          }
-         }
-         m_sObjectToSpawn "{4A54ED5987EC5AF7}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Unarmed_Hurt.et"
-        }
-       }
-       coords 24.114 1.283 -13.012
-       angleX 0.423
-       angleY -9.381
-       angleZ -1.657
-      }
-      Hurt12 {
-       components {
-        SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
-         m_aActivationActions {
-          SCR_ScenarioFrameworkActionMedical "{6298F61C2AB72D06}" {
-           m_Getter SCR_ScenarioFrameworkGetSpawnedEntity "{6298F61DD844B905}" {
-            m_sLayerName "Hurt12"
-           }
-           m_aMedicalActions {
-            SCR_ScenarioFrameworkMedicalActionSetBleedingRate "{6298F61DD3A7C78F}" {
-             m_fBleedingRate 0.01
-            }
-            SCR_ScenarioFrameworkMedicalActionSetBlood "{6298F61DCB7AB7BD}" {
-             m_fBloodValue 1500
-            }
-            SCR_ScenarioFrameworkMedicalActionAddParticularBleeding "{6298F61DC216EB5B}" {
-             m_sHitZoneName "Head"
-            }
-            SCR_ScenarioFrameworkMedicalActionAddParticularBleeding "{6298F61DE9D933DB}" {
-             m_sHitZoneName "LArm"
-            }
-            SCR_ScenarioFrameworkMedicalActionAddParticularBleeding "{6298F61DEB6954FE}" {
-             m_sHitZoneName "RCalf"
-            }
-           }
-          }
-         }
-         m_sObjectToSpawn "{4A54ED5987EC5AF7}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Unarmed_Hurt.et"
-        }
-       }
-       coords 27.7 1.36 -20.07
-       angleX 1.467
-       angleY -9.653
-       angleZ -1.994
-      }
-      Hurt10 {
-       components {
-        SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
-         m_aActivationActions {
-          SCR_ScenarioFrameworkActionMedical "{6298F61C2AB72D06}" {
-           m_Getter SCR_ScenarioFrameworkGetSpawnedEntity "{6298F61DD844B905}" {
-            m_sLayerName "Hurt10"
-           }
-           m_aMedicalActions {
-            SCR_ScenarioFrameworkMedicalActionSetBleedingRate "{6298F61DD3A7C78F}" {
-             m_fBleedingRate 0.01
-            }
-            SCR_ScenarioFrameworkMedicalActionSetBlood "{6298F61DCB7AB7BD}" {
-             m_fBloodValue 1500
-            }
-            SCR_ScenarioFrameworkMedicalActionAddParticularBleeding "{6298F61DC216EB5B}" {
-             m_sHitZoneName "Head"
-            }
-            SCR_ScenarioFrameworkMedicalActionAddParticularBleeding "{6298F61DE9D933DB}" {
-             m_sHitZoneName "LArm"
-            }
-            SCR_ScenarioFrameworkMedicalActionAddParticularBleeding "{6298F61DEB6954FE}" {
-             m_sHitZoneName "RCalf"
-            }
-           }
-          }
-         }
-         m_sObjectToSpawn "{4A54ED5987EC5AF7}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Unarmed_Hurt.et"
-        }
-       }
-       coords 20.535 1.317 -21.474
-       angleX 1.477
-       angleY -9.339
-       angleZ -1.986
-      }
-      Hurt11 {
-       components {
-        SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
-         m_aActivationActions {
-          SCR_ScenarioFrameworkActionMedical "{6298F61C2AB72D06}" {
-           m_Getter SCR_ScenarioFrameworkGetSpawnedEntity "{6298F61DD844B905}" {
-            m_sLayerName "Hurt11"
-           }
-           m_aMedicalActions {
-            SCR_ScenarioFrameworkMedicalActionSetBleedingRate "{6298F61DD3A7C78F}" {
-             m_fBleedingRate 0.01
-            }
-            SCR_ScenarioFrameworkMedicalActionSetBlood "{6298F61DCB7AB7BD}" {
-             m_fBloodValue 1500
-            }
-            SCR_ScenarioFrameworkMedicalActionAddParticularBleeding "{6298F61DC216EB5B}" {
-             m_sHitZoneName "Head"
-            }
-            SCR_ScenarioFrameworkMedicalActionAddParticularBleeding "{6298F61DE9D933DB}" {
-             m_sHitZoneName "LArm"
-            }
-            SCR_ScenarioFrameworkMedicalActionAddParticularBleeding "{6298F61DEB6954FE}" {
-             m_sHitZoneName "RCalf"
-            }
-           }
-          }
-         }
-         m_sObjectToSpawn "{4A54ED5987EC5AF7}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Unarmed_Hurt.et"
-        }
-       }
-       coords 22.82 1.331 -21.142
-       angleX -0.716
-       angleY -9.461
-       angleZ 1.321
-      }
-      Hurt13 {
-       components {
-        SCR_ScenarioFrameworkSlotAI "{5A26B3E02AC77BA0}" {
-         m_aActivationActions {
-          SCR_ScenarioFrameworkActionMedical "{6298F61C2AB72D06}" {
-           m_Getter SCR_ScenarioFrameworkGetSpawnedEntity "{6298F61DD844B905}" {
-            m_sLayerName "Hurt13"
-           }
-           m_aMedicalActions {
-            SCR_ScenarioFrameworkMedicalActionSetBleedingRate "{6298F61DD3A7C78F}" {
-             m_fBleedingRate 0.01
-            }
-            SCR_ScenarioFrameworkMedicalActionSetBlood "{6298F61DCB7AB7BD}" {
-             m_fBloodValue 1500
-            }
-            SCR_ScenarioFrameworkMedicalActionAddParticularBleeding "{6298F61DC216EB5B}" {
-             m_sHitZoneName "Head"
-            }
-            SCR_ScenarioFrameworkMedicalActionAddParticularBleeding "{6298F61DE9D933DB}" {
-             m_sHitZoneName "LArm"
-            }
-            SCR_ScenarioFrameworkMedicalActionAddParticularBleeding "{6298F61DEB6954FE}" {
-             m_sHitZoneName "RCalf"
-            }
-           }
-          }
-         }
-         m_sObjectToSpawn "{4A54ED5987EC5AF7}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Unarmed_Hurt.et"
-        }
-       }
-       coords 25.309 1.347 -20.584
-       angleX 1.401
-       angleY -9.397
-       angleZ -1.864
-      }
-     }
-     $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+     $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
       Slot3 {
        components {
         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
@@ -1816,9 +320,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 20.158 0.472 -7.907
-       angleX 0.785
-       angleY 78.979
-       angleZ 0.343
+       angles 0.785 78.979 0.343
       }
       Slot8 {
        components {
@@ -1827,9 +329,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 11.035 0.183 -2.933
-       angleX -0.498
-       angleY -33.83
-       angleZ -0.743
+       angles -0.498 -33.83 -0.743
       }
       Slot9 {
        components {
@@ -1838,9 +338,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 20.981 0.367 -29.223
-       angleX -1.771
-       angleY -89.392
-       angleZ -1.809
+       angles -1.771 -89.392 -1.809
       }
       Slot7 {
        components {
@@ -1849,9 +347,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 21.259 0.641 -15.321
-       angleX 0.339
-       angleY 78.97
-       angleZ 0.001
+       angles 0.339 78.97 0.001
       }
       Slot10 {
        components {
@@ -1860,9 +356,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 22.406 0.705 -22.777
-       angleX 0.339
-       angleY 78.97
-       angleZ 0.001
+       angles 0.339 78.97 0.001
       }
      }
     }
@@ -1870,23 +364,21 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
    RadioTrainingLayer {
     coords 0 0 0
     {
-     GenericEntity Slot6 : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+     GenericEntity Slot6 : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
       components {
        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
         m_sObjectToSpawn "{8B4B8BF44162B24E}Prefabs/Compositions/Slotted/SlotFlatSmall/Antenna_S_US_01.et"
        }
       }
       coords -7.661 -0.001 -24.087
-      angleX -1.117
-      angleY -38.583
-      angleZ -1.399
+      angles -1.117 -38.583 -1.399
      }
     }
    }
    HelicopterTrainingLayer {
     coords 0 0 0
     {
-     $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+     $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
       Slot11 {
        components {
         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
@@ -1894,9 +386,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -98.01 -0.198 -133.466
-       angleX -1.044
-       angleY -35.672
-       angleZ -1.454
+       angles -1.044 -35.672 -1.454
       }
       Slot12 {
        components {
@@ -1905,9 +395,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -4.846 2.733 -146.592
-       angleX -1.458
-       angleY -125.446
-       angleZ 1.038
+       angles -1.458 -125.446 1.038
       }
       Slot13 {
        components {
@@ -1916,9 +404,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 4.504 3.006 -160.66
-       angleX -1.479
-       angleY -124.305
-       angleZ 1.009
+       angles -1.479 -124.305 1.009
       }
       Slot14 {
        components {
@@ -1927,9 +413,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -34.757 1.779 -116.144
-       angleX -1.486
-       angleY -123.901
-       angleZ 0.998
+       angles -1.486 -123.901 0.998
       }
       Slot15 {
        components {
@@ -1938,9 +422,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords -26.554 2.036 -127.318
-       angleX -1.468
-       angleY -124.893
-       angleZ 1.024
+       angles -1.468 -124.893 1.024
       }
      }
     }
@@ -1948,7 +430,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
    NightFightLayer {
     coords 0 0 0
     {
-     $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/ScenarioFramework/Components/Slot.et" {
+     $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
       Slot112 {
        components {
         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
@@ -1957,9 +439,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 170.656 6.868 235.465
-       angleX 3.348
-       angleY 110.753
-       angleZ 1.268
+       angles 3.348 110.753 1.268
       }
       Slot113 {
        components {
@@ -1969,9 +449,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 171.274 6.885 236.974
-       angleX 2.828
-       angleY 110.752
-       angleZ 0.114
+       angles 2.828 110.752 0.114
       }
       Slot117 {
        components {
@@ -1981,9 +459,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 170.752 7.913 235.221
-       angleX 3.838
-       angleY 110.76
-       angleZ 0.304
+       angles 3.838 110.76 0.304
       }
       Slot118 {
        components {
@@ -1993,9 +469,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 170.96 7.905 235.722
-       angleX 3.838
-       angleY 110.76
-       angleZ 0.304
+       angles 3.838 110.76 0.304
       }
       Slot119 {
        components {
@@ -2005,9 +479,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 170.827 7.896 235.458
-       angleX 3.838
-       angleY 110.76
-       angleZ 0.304
+       angles 3.838 110.76 0.304
       }
       Slot120 {
        components {
@@ -2017,9 +489,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 170.408 7.853 235.051
-       angleX 3.838
-       angleY 110.76
-       angleZ 0.304
+       angles 3.838 110.76 0.304
       }
       Slot121 {
        components {
@@ -2029,9 +499,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 170.54 7.897 235.318
-       angleX 3.838
-       angleY 110.76
-       angleZ 0.304
+       angles 3.838 110.76 0.304
       }
       Slot122 {
        components {
@@ -2041,9 +509,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 170.748 7.885 235.819
-       angleX 3.838
-       angleY 110.76
-       angleZ 0.304
+       angles 3.838 110.76 0.304
       }
       Slot123 {
        components {
@@ -2053,9 +519,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 170.614 7.88 235.554
-       angleX 3.838
-       angleY 110.76
-       angleZ 0.304
+       angles 3.838 110.76 0.304
       }
       Slot124 {
        components {
@@ -2065,9 +529,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 170.127 7.858 235.114
-       angleX 3.838
-       angleY 110.76
-       angleZ 0.304
+       angles 3.838 110.76 0.304
       }
       Slot125 {
        components {
@@ -2077,9 +539,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 170.258 7.902 235.38
-       angleX 3.838
-       angleY 110.76
-       angleZ 0.304
+       angles 3.838 110.76 0.304
       }
       Slot126 {
        components {
@@ -2089,9 +549,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 170.467 7.888 235.881
-       angleX 3.838
-       angleY 110.76
-       angleZ 0.304
+       angles 3.838 110.76 0.304
       }
       Slot127 {
        components {
@@ -2101,9 +559,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 170.333 7.885 235.617
-       angleX 3.838
-       angleY 110.76
-       angleZ 0.304
+       angles 3.838 110.76 0.304
       }
       Slot116 {
        components {
@@ -2113,9 +569,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 170.621 7.868 234.955
-       angleX 3.838
-       angleY 110.76
-       angleZ 0.304
+       angles 3.838 110.76 0.304
       }
       Slot128 {
        components {
@@ -2125,9 +579,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 171.242 7.831 236.559
-       angleX 5.511
-       angleY 110.812
-       angleZ 0.941
+       angles 5.511 110.812 0.941
       }
       Slot129 {
        components {
@@ -2137,9 +589,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 171.377 7.841 236.824
-       angleX 5.511
-       angleY 110.812
-       angleZ 0.941
+       angles 5.511 110.812 0.941
       }
       Slot130 {
        components {
@@ -2149,9 +599,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 171.585 7.834 237.324
-       angleX 5.511
-       angleY 110.812
-       angleZ 0.941
+       angles 5.511 110.812 0.941
       }
       Slot131 {
        components {
@@ -2161,9 +609,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 171.451 7.824 237.061
-       angleX 5.511
-       angleY 110.812
-       angleZ 0.941
+       angles 5.511 110.812 0.941
       }
       Slot132 {
        components {
@@ -2173,9 +619,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 171.03 7.813 236.655
-       angleX 5.511
-       angleY 110.812
-       angleZ 0.941
+       angles 5.511 110.812 0.941
       }
       Slot133 {
        components {
@@ -2185,9 +629,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 171.164 7.825 236.921
-       angleX 5.511
-       angleY 110.812
-       angleZ 0.941
+       angles 5.511 110.812 0.941
       }
       Slot134 {
        components {
@@ -2197,9 +639,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 171.373 7.814 237.422
-       angleX 5.511
-       angleY 110.812
-       angleZ 0.941
+       angles 5.511 110.812 0.941
       }
       Slot135 {
        components {
@@ -2209,9 +649,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 171.239 7.809 237.157
-       angleX 5.511
-       angleY 110.812
-       angleZ 0.941
+       angles 5.511 110.812 0.941
       }
       Slot136 {
        components {
@@ -2221,9 +659,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 170.75 7.799 236.717
-       angleX 5.511
-       angleY 110.812
-       angleZ 0.941
+       angles 5.511 110.812 0.941
       }
       Slot137 {
        components {
@@ -2233,9 +669,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 170.886 7.8 236.983
-       angleX 5.511
-       angleY 110.812
-       angleZ 0.941
+       angles 5.511 110.812 0.941
       }
       Slot138 {
        components {
@@ -2245,9 +679,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 171.091 7.816 237.484
-       angleX 5.511
-       angleY 110.812
-       angleZ 0.941
+       angles 5.511 110.812 0.941
       }
       Slot139 {
        components {
@@ -2257,9 +689,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 170.957 7.814 237.22
-       angleX 5.511
-       angleY 110.812
-       angleZ 0.941
+       angles 5.511 110.812 0.941
       }
       Slot189 {
        components {
@@ -2269,9 +699,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 171.775 6.907 238.391
-       angleX 3.285
-       angleY 113.43
-       angleZ 1.423
+       angles 3.285 113.43 1.423
       }
       Slot190 {
        components {
@@ -2281,9 +709,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 171.666 7.806 238.181
-       angleX -4.72
-       angleY -67.203
-       angleZ -90.712
+       angles -4.72 -67.203 -90.712
       }
       Slot191 {
        components {
@@ -2293,9 +719,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 171.545 7.798 237.921
-       angleX -4.72
-       angleY -67.203
-       angleZ -90.712
+       angles -4.72 -67.203 -90.712
       }
       Slot192 {
        components {
@@ -2305,9 +729,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 171.789 7.832 238.449
-       angleX -4.72
-       angleY -67.203
-       angleZ -90.712
+       angles -4.72 -67.203 -90.712
       }
       Slot193 {
        components {
@@ -2317,9 +739,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 172.178 7.22 237.929
-       angleX 66.863
-       angleY -68.92
-       angleZ -91.803
+       angles 66.863 -68.92 -91.803
       }
       Slot194 {
        components {
@@ -2329,9 +749,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 172.341 7.249 238.241
-       angleX 66.863
-       angleY -68.92
-       angleZ -91.803
+       angles 66.863 -68.92 -91.803
       }
       Slot195 {
        components {
@@ -2341,9 +759,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 172.541 7.288 238.62
-       angleX 66.863
-       angleY -68.92
-       angleZ -91.803
+       angles 66.863 -68.92 -91.803
       }
       Slot196 {
        components {
@@ -2353,9 +769,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 171.909 7.821 238.815
-       angleX -4.72
-       angleY -67.203
-       angleZ -90.712
+       angles -4.72 -67.203 -90.712
       }
       Slot197 {
        components {
@@ -2365,9 +779,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 171.337 7.184 238.908
-       angleX 74.211
-       angleY 118.035
-       angleZ -86.739
+       angles 74.211 118.035 -86.739
       }
       Slot200 {
        components {
@@ -2377,9 +789,7 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 171.221 7.181 238.586
-       angleX 74.211
-       angleY 118.035
-       angleZ -86.739
+       angles 74.211 118.035 -86.739
       }
       Slot201 {
        components {
@@ -2389,9 +799,874 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
         }
        }
        coords 171.087 7.192 238.249
-       angleX 74.211
-       angleY 118.035
-       angleZ -86.739
+       angles 74.211 118.035 -86.739
+      }
+     }
+    }
+   }
+   BasicEquipLayer {
+    coords 0 0 0
+    {
+     $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
+      Slot16 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{C5E7592C94DC6D4C}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_MC.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -51.836 -0.018 -1.9
+       angles -4.541 144.04 2.503
+      }
+      Slot17 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{C5E7592C94DC6D4C}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_MC.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -51.498 -0.012 -1.656
+       angles -4.541 144.04 2.503
+      }
+      Slot18 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{C5E7592C94DC6D4C}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_MC.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -51.159 -0.009 -1.419
+       angles -4.541 144.04 2.503
+      }
+      Slot19 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{C5E7592C94DC6D4C}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_MC.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -50.843 0.014 -1.227
+       angles -4.541 144.04 2.503
+      }
+      Slot20 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{C5E7592C94DC6D4C}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_MC.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -53.41 -0.075 -3.042
+       angles -4.541 144.04 2.503
+      }
+      Slot21 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{C5E7592C94DC6D4C}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_MC.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -53.085 -0.105 -2.786
+       angles -4.541 144.04 2.503
+      }
+      Slot22 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{C5E7592C94DC6D4C}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_MC.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -52.771 -0.086 -2.559
+       angles -4.541 144.04 2.503
+      }
+      Slot23 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{C5E7592C94DC6D4C}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_MC.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -52.451 -0.081 -2.326
+       angles -4.541 144.04 2.503
+      }
+      Slot24 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{C5E7592C94DC6D4C}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_MC.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -50.483 -0.022 -0.9
+       angles -4.541 144.04 2.503
+      }
+      Slot25 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{C5E7592C94DC6D4C}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_MC.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -50.165 -0.035 -0.636
+       angles -4.541 144.04 2.503
+      }
+      Slot26 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{C5E7592C94DC6D4C}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_MC.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -49.81 -0.021 -0.376
+       angles -4.541 144.04 2.503
+      }
+      Slot29 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMilitary_USSR_01.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -47.395 -0.572 -0.795
+       angles 2.861 53.014 -2.153
+      }
+      Slot30 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMilitary_USSR_01.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -45.957 -0.527 -2.655
+       angles 2.861 53.014 -2.153
+      }
+      Slot31 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMilitary_USSR_01.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -54.294 -0.787 -5.769
+       angles 2.861 53.014 -2.153
+      }
+      Slot32 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMilitary_USSR_01.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -53.187 -0.753 -7.342
+       angles 2.861 53.014 -2.153
+      }
+      Slot33 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{01BE30D243F57EE2}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230_MRDS_tan.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -47.899 0.312 -0.517
+       angles 2.861 53.014 -2.153
+      }
+      Slot34 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{01BE30D243F57EE2}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230_MRDS_tan.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -47.699 0.318 -0.352
+       angles 2.861 53.014 -2.153
+      }
+      Slot35 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{01BE30D243F57EE2}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230_MRDS_tan.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -47.737 0.317 -0.682
+       angles 2.861 53.014 -2.153
+      }
+      Slot36 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{01BE30D243F57EE2}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230_MRDS_tan.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -47.537 0.323 -0.516
+       angles 2.861 53.014 -2.153
+      }
+      Slot37 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{01BE30D243F57EE2}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230_MRDS_tan.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -47.611 0.321 -0.838
+       angles 2.861 53.014 -2.153
+      }
+      Slot38 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{01BE30D243F57EE2}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230_MRDS_tan.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -47.41 0.327 -0.672
+       angles 2.861 53.014 -2.153
+      }
+      Slot39 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{01BE30D243F57EE2}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230_MRDS_tan.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -47.516 0.324 -1.007
+       angles 2.861 53.014 -2.153
+      }
+      Slot41 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_bShowDebugShapesInWorkbench 0
+         m_sObjectToSpawn "{0B49B43A41505E92}Prefabs/Structures/Military/CamoNets/US/CamoNet_Folded_US.et"
+        }
+       }
+       coords -39.386 -0.327 -19.059
+       angles 0 0 -3.58
+      }
+      Slot40 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{01BE30D243F57EE2}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230_MRDS_tan.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -47.316 0.33 -0.842
+       angles 2.861 53.014 -2.153
+      }
+      Slot42 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{01BE30D243F57EE2}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230_MRDS_tan.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -47.389 0.328 -1.172
+       angles 2.861 53.014 -2.153
+      }
+      Slot43 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{01BE30D243F57EE2}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230_MRDS_tan.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -47.188 0.334 -1.008
+       angles 2.861 53.014 -2.153
+      }
+      Slot44 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{01BE30D243F57EE2}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230_MRDS_tan.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -47.266 0.332 -1.343
+       angles 2.861 53.014 -2.153
+      }
+      Slot45 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{01BE30D243F57EE2}Prefabs/Weapons/Attachments/Optics/su230/Optic_SU230_MRDS_tan.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -47.066 0.338 -1.177
+       angles 2.861 53.014 -2.153
+      }
+      Slot46 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{9A185BC14F1166B4}Prefabs/Weapons/Attachments/Lasers/anpeq15/Laser_ANPEQ15_tan.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -46.231 0.364 -2.149
+       angles 2.861 53 -2.154
+      }
+      Slot47 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{9A185BC14F1166B4}Prefabs/Weapons/Attachments/Lasers/anpeq15/Laser_ANPEQ15_tan.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -46.43 0.358 -2.316
+       angles 2.861 53 -2.154
+      }
+      Slot48 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{9A185BC14F1166B4}Prefabs/Weapons/Attachments/Lasers/anpeq15/Laser_ANPEQ15_tan.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -46.11 0.368 -2.36
+       angles 2.861 53 -2.154
+      }
+      Slot49 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{9A185BC14F1166B4}Prefabs/Weapons/Attachments/Lasers/anpeq15/Laser_ANPEQ15_tan.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -46.309 0.362 -2.527
+       angles 2.861 53 -2.154
+      }
+      Slot50 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{9A185BC14F1166B4}Prefabs/Weapons/Attachments/Lasers/anpeq15/Laser_ANPEQ15_tan.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -45.971 0.372 -2.507
+       angles 2.861 53 -2.154
+      }
+      Slot52 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{34D385CE8A17BD61}Prefabs/Structures/Military/CamoNets/US/CamoNet_AssemblyKit_US.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -38.006 -0.262 -18.166
+       angles 0 0 -3.58
+      }
+      Slot51 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{9A185BC14F1166B4}Prefabs/Weapons/Attachments/Lasers/anpeq15/Laser_ANPEQ15_tan.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -46.17 0.366 -2.674
+       angles 2.861 53 -2.154
+      }
+      Slot53 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{9A185BC14F1166B4}Prefabs/Weapons/Attachments/Lasers/anpeq15/Laser_ANPEQ15_tan.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -45.845 0.376 -2.693
+       angles 2.861 53.001 -2.154
+      }
+      Slot114 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{9A185BC14F1166B4}Prefabs/Weapons/Attachments/Lasers/anpeq15/Laser_ANPEQ15_tan.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -46.044 0.37 -2.86
+       angles 2.861 53.001 -2.154
+      }
+      Slot115 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{9A185BC14F1166B4}Prefabs/Weapons/Attachments/Lasers/anpeq15/Laser_ANPEQ15_tan.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -45.643 0.382 -2.909
+       angles 2.861 53 -2.154
+      }
+      Slot140 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{9A185BC14F1166B4}Prefabs/Weapons/Attachments/Lasers/anpeq15/Laser_ANPEQ15_tan.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -45.842 0.376 -3.076
+       angles 2.861 53 -2.154
+      }
+      Slot141 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{612DB63E3F817C92}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_camo1.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -54.037 0.135 -6.127
+       angles -3.854 -128.077 -86.155
+      }
+      Slot142 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{14BAB2D9F6F782D8}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_BLOCK_II.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -52.921 0.17 -7.726
+       angles -4.253 -127.707 -87.135
+      }
+      Slot143 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{14BAB2D9F6F782D8}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_BLOCK_II.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -53.087 0.159 -7.492
+       angles -4.253 -127.707 -87.135
+      }
+      Slot144 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{14BAB2D9F6F782D8}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_BLOCK_II.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -53.258 0.166 -7.251
+       angles -4.253 -127.707 -87.135
+      }
+      Slot145 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{14BAB2D9F6F782D8}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_BLOCK_II.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -53.454 0.157 -7.007
+       angles -4.253 -127.707 -87.135
+      }
+      Slot147 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMilitary_USSR_01.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -44.666 -0.487 -11.61
+       angles 2.862 53.04 -2.151
+      }
+      Slot146 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{612DB63E3F817C92}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_camo1.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -54.232 0.131 -5.87
+       angles -3.854 -128.077 -86.155
+      }
+      Slot148 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{612DB63E3F817C92}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_camo1.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -54.39 0.139 -5.613
+       angles -3.854 -128.077 -86.155
+      }
+      Slot149 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{612DB63E3F817C92}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_camo1.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -54.621 0.124 -5.312
+       angles -3.854 -128.077 -86.155
+      }
+      Slot150 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{612DB63E3F817C92}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_camo1.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -53.65 -0.408 -5.624
+       angles 66.146 -119.097 -80.478
+      }
+      Slot151 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{612DB63E3F817C92}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_camo1.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -53.869 -0.415 -5.363
+       angles 66.146 -119.097 -80.478
+      }
+      Slot152 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{612DB63E3F817C92}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_camo1.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -54.076 -0.421 -5.082
+       angles 66.146 -119.097 -80.478
+      }
+      Slot153 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{14BAB2D9F6F782D8}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_BLOCK_II.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -53.016 -0.409 -6.544
+       angles 67.164 -120.687 -82.62
+      }
+      Slot154 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{14BAB2D9F6F782D8}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_BLOCK_II.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -52.786 -0.421 -6.907
+       angles 67.164 -120.687 -82.62
+      }
+      Slot155 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{14BAB2D9F6F782D8}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_BLOCK_II.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -52.594 -0.428 -7.204
+       angles 67.164 -120.687 -82.62
+      }
+      Slot157 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{B385064A383A384B}Prefabs/Items/Equipment/Nightvision/PVS14/NVG_PVS14Dual_WP.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -44.588 0.476 -11.347
+       angles 0 0 -3.58
+      }
+      Slot158 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMilitary_USSR_01.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -45.968 -0.527 -9.871
+       angles 2.862 53.027 -2.153
+      }
+      Slot159 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{1A1020205E2B1710}Prefabs/Props/Military/Furniture/TableMilitary_USSR_01.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -47.162 -0.565 -8.247
+       angles 2.862 53.027 -2.153
+      }
+      Slot160 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{785F322AC3DFD4B9}Prefabs/Compositions/Misc/SubCompositions/Furniture/Chair_Light_US_01.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -45.232 -0.504 -10.691
+       angles -2.151 -36.905 -2.862
+      }
+      Slot161 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{785F322AC3DFD4B9}Prefabs/Compositions/Misc/SubCompositions/Furniture/Chair_Light_US_01.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -46.588 -0.547 -9.02
+       angles -2.151 -36.892 -2.863
+      }
+      Slot162 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{6796EA08CB53CAEB}Prefabs/MP/Campaign/RequestTable_US.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -48.865 -0.618 -15.517
+       angles -2.862 -126.97 2.152
+      }
+      Slot163 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{7B2D1744E9F2A3B3}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Ashtray_US_01.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -51.588 -0.703 -11.932
+       angles 2.891 53.813 -2.113
+      }
+      Slot164 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{F2174A927C3229F2}Prefabs/Compositions/Misc/SubCompositions/Furniture/Table_Desk_US_05.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -50.244 -0.689 -13.68
+       angles 4.046 51.067 -2.749
+      }
+      Slot165 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{5B219B96EDC39786}Prefabs/Items/Equipment/Nightvision/PVS31/NVG_PVS31_WP_BLK_MC.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -44.801 0.458 -11.098
+       angles 0 0 -5.37
+      }
+      Slot166 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{3D91801A97D4061E}Prefabs/Items/Equipment/Nightvision/PVS31/PVS_31_BatPack_BLK_MC.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -44.11 0.43 -11.876
+       angles 86.053 -65.059 -65.111
+      }
+      Slot167 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{41EF32019B19EB8D}Prefabs/Items/Equipment/Nightvision/PVS31/PVS_31_BatPack_TAN_MC.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -44.195 0.429 -11.749
+       angles 84.52 -78.428 -78.48
+      }
+      Slot168 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{5F7EF7FEBC39B874}Prefabs/Items/Equipment/Nightvision/HelstarStrobe/Helstar.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -44.327 0.427 -11.566
+       angles 82.127 -137.175 -136.905
+      }
+      Slot169 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{3D91801A97D4061E}Prefabs/Items/Equipment/Nightvision/PVS31/PVS_31_BatPack_BLK_MC.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -44.257 0.424 -11.979
+       angles 86.053 -65.059 -65.111
+      }
+      Slot170 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{41EF32019B19EB8D}Prefabs/Items/Equipment/Nightvision/PVS31/PVS_31_BatPack_TAN_MC.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -44.34 0.422 -11.85
+       angles 84.52 -78.428 -78.48
+      }
+      Slot171 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{5F7EF7FEBC39B874}Prefabs/Items/Equipment/Nightvision/HelstarStrobe/Helstar.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -44.473 0.421 -11.668
+       angles 82.127 -137.175 -136.905
+      }
+      Slot172 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{3D91801A97D4061E}Prefabs/Items/Equipment/Nightvision/PVS31/PVS_31_BatPack_BLK_MC.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -44.406 0.425 -12.081
+       angles 86.053 -65.059 -65.111
+      }
+      Slot173 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{41EF32019B19EB8D}Prefabs/Items/Equipment/Nightvision/PVS31/PVS_31_BatPack_TAN_MC.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -44.49 0.424 -11.954
+       angles 84.52 -78.428 -78.48
+      }
+      Slot174 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{5F7EF7FEBC39B874}Prefabs/Items/Equipment/Nightvision/HelstarStrobe/Helstar.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -44.622 0.413 -11.77
+       angles 82.127 -137.175 -136.905
+      }
+      Slot175 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{3D91801A97D4061E}Prefabs/Items/Equipment/Nightvision/PVS31/PVS_31_BatPack_BLK_MC.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -44.56 0.417 -12.2
+       angles 86.053 -65.059 -65.111
+      }
+      Slot176 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{41EF32019B19EB8D}Prefabs/Items/Equipment/Nightvision/PVS31/PVS_31_BatPack_TAN_MC.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -44.644 0.416 -12.074
+       angles 84.52 -78.428 -78.48
+      }
+      Slot177 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{5F7EF7FEBC39B874}Prefabs/Items/Equipment/Nightvision/HelstarStrobe/Helstar.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -44.776 0.413 -11.892
+       angles 82.127 -137.175 -136.905
+      }
+      Slot178 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{D61490732EE2F0E5}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_medium_green.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -44.995 0.402 -11.648
+       angles 0 0 -3.58
+      }
+      Slot179 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{5B219B96EDC39786}Prefabs/Items/Equipment/Nightvision/PVS31/NVG_PVS31_WP_BLK_MC.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -44.833 0.449 -11.492
+       angles 0 0 -7.16
+      }
+      Slot180 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{D61490732EE2F0E5}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_medium_green.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -45.187 0.396 -11.316
+       angles -0.076 -1.218 -3.579
+      }
+      Slot181 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{3BB52CEF1659F3C0}Prefabs/Weapons/Rifles/M27IAR/Rifle_M27IAR_camo1_su231A.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -45.898 0.388 -9.917
+       angles -0.09 -1.429 -90.778
+      }
+      Slot182 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{EA69842DEA2391A6}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_BLOCK_II_SU230.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -47.134 0.359 -8.321
+       angles -0.09 -1.429 -90.778
+      }
+      Slot183 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{4A93B3F0B33FF104}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_MC.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -43.51 -0.374 -12.625
+       angles -37.649 99.067 0.749
+      }
+      Slot184 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{C5E7592C94DC6D4C}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_MC.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -43.831 -0.343 -12.066
+       angles -46.673 29.711 -4.681
+      }
+      Slot185 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{95D4766BBE46F23D}Prefabs/Items/Equipment/Backpacks/Backpack_IIFS_FieldPack.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -43.611 -0.296 -12.328
+       angles -28.126 57.36 -2.255
+      }
+      Slot186 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{95D4766BBE46F23D}Prefabs/Items/Equipment/Backpacks/Backpack_IIFS_FieldPack.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -47.575 -0.405 -6.851
+       angles -28.126 57.36 -2.255
+      }
+      Slot187 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{4A93B3F0B33FF104}Prefabs/Items/Equipment/Backpacks/backpack_511_rush12/Backpack_511_rush12_MC.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -47.473 -0.483 -7.148
+       angles -37.649 99.067 0.749
+      }
+      Slot188 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{C5E7592C94DC6D4C}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_MC.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords -47.794 -0.452 -6.589
+       angles -46.673 29.711 -4.681
       }
      }
     }
@@ -2401,19 +1676,19 @@ GenericEntity BasicTrainingArea : "{C72F956E4AC6A6E7}Prefabs/ScenarioFramework/C
 }
 GenericEntity : "{D042CEA90B8CB14D}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/CrateStack_01_decals_02.et" {
  coords 1328.433 37.045 2381.581
- angleY -35.739
+ angles 0 -35.739 0
 }
 GenericEntity : "{D8ABE2DE630F577E}Prefabs/Compositions/Misc/SubCompositions/CrateStacked_01.et" {
  coords 1342.91 37.045 2388.349
- angleY 53.182
+ angles 0 53.182 0
 }
 GenericEntity : "{D9C33CE6093E1208}Prefabs/Props/Civilian/Dartboard_01/Dartboard_01.et" {
  coords 1323.527 38.867 2387.154
- angleY 53.992
+ angles 0 53.992 0
 }
 GenericEntity : "{ECC4315520263256}Prefabs/Props/Military/MilitaryCrates/CrateStack_01/CrateStack_01_dark.et" {
  coords 1329.117 37.045 2380.668
- angleY -38.694
+ angles 0 -38.694 0
 }
 $grp GenericEntity : "{F0B225D7CD87D140}Prefabs/Compositions/Misc/CustomEntities/InteractionPoints/AmmoBoxArsenal_Equipment_US_Radios.et" {
  {
@@ -2437,9 +1712,7 @@ $grp GenericEntity : "{F0B225D7CD87D140}Prefabs/Compositions/Misc/CustomEntities
    }
   }
   coords 1372.193 36.398 2375.469
-  angleX 0.26
-  angleY -73.125
-  angleZ -0.857
+  angles 0.26 -73.125 -0.857
  }
  {
   components {
@@ -2462,9 +1735,7 @@ $grp GenericEntity : "{F0B225D7CD87D140}Prefabs/Compositions/Misc/CustomEntities
    }
   }
   coords 1371.626 36.383 2374.489
-  angleX 0.665
-  angleY -42.008
-  angleZ -0.599
+  angles 0.665 -42.008 -0.599
  }
  {
   components {
@@ -2487,7 +1758,7 @@ $grp GenericEntity : "{F0B225D7CD87D140}Prefabs/Compositions/Misc/CustomEntities
    }
   }
   coords 1370.652 36.375 2373.967
-  angleY -12.11
+  angles 0 -12.11 0
  }
  {
   components {
@@ -2510,9 +1781,7 @@ $grp GenericEntity : "{F0B225D7CD87D140}Prefabs/Compositions/Misc/CustomEntities
    }
   }
   coords 1369.663 36.378 2373.774
-  angleX -0.886
-  angleY -8.183
-  angleZ 0.127
+  angles -0.886 -8.183 0.127
  }
 }
 GenericEntity : "{F8ECFB663EAEB862}Prefabs/Props/Fabric/Flags/Flag_1_2_TTT.et" {

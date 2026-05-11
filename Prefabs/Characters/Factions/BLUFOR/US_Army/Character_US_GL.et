@@ -33,7 +33,7 @@ SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_
      Prefab "{1D0E3F9F2E1F6D21}Prefabs/Characters/Vests/Vest_AVS/Vest_AVS_6x9_MC.et"
     }
     LoadoutSlotInfo Pants {
-     Prefab "{512DE5A159E82012}Prefabs/Characters/Uniforms/BDU_Pants/BDU_PANTS_MC.et"
+     Prefab "{2FDEBA2FF1B7759E}Prefabs/Characters/Uniforms/Crye_Pants/crye_pants_mc.et"
     }
     LoadoutSlotInfo Boots {
      Prefab "{320FA1CD5B1D5601}Prefabs/Characters/Footwear/Boots_USMC_Combat/Footwear_USMC_Combat.et"
@@ -49,16 +49,10 @@ SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{5D7CAAFB9235E902}" {
-     TargetStorage "Prefabs/Characters/Uniforms/BDU_Pants/BDU_PANTS_MC.et"
+     TargetStorage "Pants/crye_pants_mc.et"
     }
     ItemsInitConfigurationItem "{5D7CAAFB9235E903}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_MC.et"
-    }
-    ItemsInitConfigurationItem "{5A24B6035F7619E7}" {
-     TargetStorage "Prefabs/Characters/Uniforms/Crye_Shirt/Jacket_Crye_Combat_Shirt_MC.et"
-     PrefabsToSpawn {
-      "{B9E98F1464E93A9D}Prefabs/Items/Equipment/Patches/Patch_Blood_APos.et" "{EAC140671B326F58}Prefabs/Items/Equipment/Patches/Patch_US_Flag.et" "{0D07F51A271B0065}Prefabs/Items/Equipment/Patches/Patch_USMC_ID_Bernat.et" "{EAC140671B326F58}Prefabs/Items/Equipment/Patches/Patch_US_Flag.et"
-     }
+     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_MC.et"
     }
     ItemsInitConfigurationItem "{54A49B4A9E9F3C8E}" {
      PrefabsToSpawn {
@@ -74,6 +68,12 @@ SCR_ChimeraCharacter : "{284E735C6C70DAD2}Prefabs/Characters/Factions/BLUFOR/US_
     }
     ItemsInitConfigurationItem "{5538C29994C0DF71}" {
      PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{5A24B6035F7619E7}" {
+     TargetStorage "Jacket/Jacket_Crye_Combat_Shirt_MC.et"
+     PrefabsToSpawn {
+      "{B9E98F1464E93A9D}Prefabs/Items/Equipment/Patches/Patch_Blood_APos.et" "{EAC140671B326F58}Prefabs/Items/Equipment/Patches/Patch_US_Flag.et" "{0D07F51A271B0065}Prefabs/Items/Equipment/Patches/Patch_USMC_ID_Bernat.et" "{EAC140671B326F58}Prefabs/Items/Equipment/Patches/Patch_US_Flag.et"
      }
     }
    }
