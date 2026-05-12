@@ -1248,16 +1248,6 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFra
     angles 0.892 -0.042 -2.684
     {
      $grp GenericEntity : "{AA01691FDC4E9167}Prefabs/Systems/ScenarioFramework/Components/Slot.et" {
-      Slot27 {
-       components {
-        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
-         m_sObjectToSpawn "{73530808E4B455BA}Prefabs/Weapons/Tripods/Tripod_M3_M2HB.et"
-         m_bCanBeGarbageCollected 0
-        }
-       }
-       coords 3.731 0.881 18.262
-       angles 1.444 -167.721 -2.433
-      }
       Slot54 {
        components {
         SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
@@ -1417,6 +1407,16 @@ GenericEntity ShootingRangeArea : "{C72F956E4AC6A6E7}Prefabs/Systems/ScenarioFra
        }
        coords -4.138 1.772 23.235
        angles 9.315 102.363 -1.477
+      }
+      Slot156 {
+       components {
+        SCR_ScenarioFrameworkSlotBase "{5A22E1D67E712EC8}" {
+         m_sObjectToSpawn "{73530808E4B455BA}Prefabs/Weapons/Tripods/Tripod_M3_M2HB.et"
+         m_bCanBeGarbageCollected 0
+        }
+       }
+       coords 3.402 0.893 18.469
+       angles 1.647 -162.798 -2.299
       }
      }
     }
